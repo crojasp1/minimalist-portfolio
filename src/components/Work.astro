@@ -1,0 +1,10 @@
+---
+import Experience from './Experience.astro';
+
+const { title, experiences } = Astro.props;
+---
+
+<article>
+	<h2>{title}</h2>
+	{experiences.map((experience) => <Experience {...experience} />)}
+</article>

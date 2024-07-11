@@ -1,0 +1,12 @@
+---
+import Description from '@components/Description.astro';
+import Duration from '@components/Duration.astro';
+
+const { name, duration, description = {} } = Astro.props;
+---
+
+<header>
+	<h6>{name}</h6>
+	{!!duration && <Duration {...duration} />}
+</header>
+{!!Object.keys(description).length && <Description {...description} />}

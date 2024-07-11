@@ -1,0 +1,67 @@
+{
+	"hero": {
+		"title": "Marvin Daniel Cely Báez",
+		"text": "lorem itsum",
+		"location": {
+			"text": "Bogotá, Colombia",
+			"link": "https://www.google.com/maps/place/Bogot%C3%A1"
+		},
+		"contacts": [
+			{ "icon": "mail", "link": "" },
+			{ "icon": "github", "link": "" }
+		]
+	},
+	"about": {
+		"title": "About",
+		"text": "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide."
+	},
+	"work": {
+		"title": "Career History",
+		"experiences": [
+			{
+				"company": {
+					"name": "Mercado Libre",
+					"badge": {
+						"text": "Hybrid"
+					},
+					"duration": {
+						"from": "May 2023",
+						"to": "June 2024"
+					}
+				},
+				"role": "Sr Software Engineer",
+				"projects": [
+					{
+						"name": "Clips",
+						"duration": {
+							"from": "May 2023",
+							"to": "June 2024"
+						},
+						"description": {
+							"text": "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL"
+						}
+					}
+				]
+			}
+		]
+	},
+	"education": {
+		"title": "Pontificial universidad Javeriana",
+		"projects": [
+			{
+				"name": "Ingeniero de Sistemas",
+				"duration": {
+					"from": "May 2012",
+					"to": "June 2018"
+				}
+			}
+		]
+	},
+	"skills": {
+		"title": "Skills",
+		"badges": [
+			{ "text": "Javascript", "tooltip": "5 years" },
+			{ "text": "React", "tooltip": "5 years" }
+		]
+	}
+}

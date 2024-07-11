@@ -1,0 +1,8 @@
+---
+import Project from '@components/Project.astro';
+
+const { title, projects } = Astro.props;
+---
+
+<h2>{title}</h2>
+{!!projects?.length && projects.map((project) => <Project {...project} />)}

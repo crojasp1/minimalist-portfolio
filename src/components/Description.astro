@@ -1,0 +1,14 @@
+---
+const { text, list } = Astro.props;
+---
+
+{!!text && <p>{text}</p>}
+{
+	!!list?.length && (
+		<ul>
+			{list.map((item) => (
+				<li>{item}</li>
+			))}
+		</ul>
+	)
+}

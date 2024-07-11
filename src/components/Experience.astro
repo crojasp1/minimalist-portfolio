@@ -1,0 +1,22 @@
+---
+import Bagde from '@components/Bagde.astro';
+import Duration from '@components/Duration.astro';
+import Project from '@components/Project.astro';
+import Vendor from '@components/Vendor.astro';
+import Description from '@components/Description.astro';
+
+const { company, role, description = {}, projects, vendors } = Astro.props;
+const { name, badge, duration } = company;
+---
+
+<header>
+	<h3>{name}</h3>
+	{!!Object.keys(badge).length && <Bagde {...badge} />}
+	<Duration {...duration} />
+</header>
+<main>
+	<h4>{role}</h4>
+	{!!Object.keys(description).length && <Description {...description} />}
+	{!!projects?.length && projects.map((project) => <Project {...project} />)}
+	{!!vendors?.length && vendors.map((vendor) => <Vendor {...vendor} />)}
+</main>

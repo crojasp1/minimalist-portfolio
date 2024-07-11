@@ -1,0 +1,18 @@
+---
+interface Props {
+	text: string;
+	tooltip: string;
+}
+
+const { text, tooltip } = Astro.props;
+---
+
+{tooltip ? <span title={tooltip}>{text}</span> : <span>{text}</span>}
+
+<style>
+	span {
+		padding: 0.25rem 0.5rem;
+		border-radius: 50%;
+		background-color: blueviolet;
+	}
+</style>
