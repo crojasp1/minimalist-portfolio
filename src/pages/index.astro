@@ -7,19 +7,22 @@ import KeyboardManager from '@components/KeyboardManager.astro';
 import Layout from '@layouts/Layout.astro';
 import Projects from '@components/Project.astro';
 import Skills from '@components/Skills.astro';
-import cv from '@utils/cv-lang';
+import Languages from '@components/Languages.astro';
+import cvLang from '@utils/cv-lang';
 
-const { hero, about, work, education, skills } = cv();
+const resume = await cvLang('en');
+const { hero, about, work, education, skills, languagues } = resume;
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Marvin Daniel Cely Báez | Software Engineer" lang={'en'}>
 	<main>
 		<Hero {...hero} />
 		<About {...about} />
 		<Work {...work} />
 		<Education {...education} />
 		<Skills {...skills} />
-		<Projects />
+		<Languages {...languagues} />
+		<!-- <Projects /> -->
 	</main>
 	<KeyboardManager />
 </Layout>

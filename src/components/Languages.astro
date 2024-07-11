@@ -1,0 +1,14 @@
+---
+const { title, list } = Astro.props;
+---
+
+<h2>{title}</h2>
+{
+	!!list?.length && (
+		<ul>
+			{list.map(({ text, level }) => (
+				<li>{`${text}: ${level}`}</li>
+			))}
+		</ul>
+	)
+}
