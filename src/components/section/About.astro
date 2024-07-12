@@ -1,0 +1,9 @@
+---
+import Section from '@components/Section.astro';
+
+const { title, text } = Astro.props;
+---
+
+<Section title={title}>
+	<p>{text}</p>
+</Section>

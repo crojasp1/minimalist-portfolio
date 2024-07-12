@@ -1,13 +1,13 @@
 ---
-import About from '@components/About.astro';
-import Education from '@components/Education.astro';
-import Work from '@components/Work.astro';
+import About from '@components/section/About.astro';
+import Education from '@components/section/Education.astro';
+import Work from '@components/section/Work.astro';
 import Hero from '@components/Hero.astro';
 import KeyboardManager from '@components/KeyboardManager.astro';
 import Layout from '@layouts/Layout.astro';
 import Projects from '@components/Project.astro';
-import Skills from '@components/Skills.astro';
-import Languages from '@components/Languages.astro';
+import Skills from '@components/section/Skills.astro';
+import Languages from '@components/section/Languages.astro';
 import cvLang from '@utils/cv-lang';
 
 const resume = await cvLang('en');
@@ -22,7 +22,6 @@ const { hero, about, work, education, skills, languagues } = resume;
 		<Education {...education} />
 		<Skills {...skills} />
 		<Languages {...languagues} />
-		<!-- <Projects /> -->
 	</main>
 	<KeyboardManager />
 </Layout>

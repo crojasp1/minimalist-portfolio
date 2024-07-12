@@ -1,8 +1,0 @@
----
-import Bagde from './Bagde.astro';
-
-const { title, badges } = Astro.props;
----
-
-<h2>{title}</h2>
-{!!badges?.length && badges.map((badge) => <Bagde {...badge} />)}

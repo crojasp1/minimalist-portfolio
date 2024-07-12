@@ -1,3 +1,12 @@
+:root {
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		// TODO:
+	}
+}
+
 // Colors
 $seasalt: #f8f9faff;
 $antiflash-white: #e9ecefff;
@@ -13,7 +22,3 @@ $eerie-black: #212529ff;
 $color-backgroud: $seasalt;
 $color-heading: $eerie-black;
 $color-primary: $onyx;
-
-@media (prefers-color-scheme: dark) {
-	// TODO:
-}

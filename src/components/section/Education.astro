@@ -1,0 +1,10 @@
+---
+import Section from '@components/Section.astro';
+import Project from '@components/Project.astro';
+
+const { title, projects } = Astro.props;
+---
+
+<Section title={title}>
+	{!!projects?.length && projects.map((project) => <Project {...project} />)}
+</Section>

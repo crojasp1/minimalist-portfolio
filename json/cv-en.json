@@ -9,7 +9,11 @@
 		"contacts": [
 			{ "icon": "mail", "link": "" },
 			{ "icon": "github", "link": "" }
-		]
+		],
+		"image": {
+			"src": "/me.webp",
+			"alt": "Marvin's Profile Image"
+		}
 	},
 	"about": {
 		"title": "About",

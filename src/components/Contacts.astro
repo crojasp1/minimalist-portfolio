@@ -1,0 +1,13 @@
+---
+import Link from '@components/Link.astro';
+
+const { contacts } = Astro.props;
+---
+
+{
+	contacts.map((contact) => (
+		<Link {...contact}>
+			<span>{contact.icon}</span>
+		</Link>
+	))
+}

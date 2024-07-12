@@ -1,0 +1,10 @@
+---
+import Bagde from '../Bagde.astro';
+import Section from '@components/Section.astro';
+
+const { title, badges } = Astro.props;
+---
+
+<Section title={title}>
+	{!!badges?.length && badges.map((badge) => <Bagde {...badge} />)}
+</Section>

@@ -1,0 +1,10 @@
+---
+import Experience from '../Experience.astro';
+import Section from '@components/Section.astro';
+
+const { title, experiences } = Astro.props;
+---
+
+<Section title={title}>
+	{experiences.map((experience) => <Experience {...experience} />)}
+</Section>

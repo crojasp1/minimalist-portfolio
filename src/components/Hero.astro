@@ -1,6 +1,20 @@
 ---
-const { title, text } = Astro.props;
+import Link from '@components/Link.astro';
+import Contacts from '@components/Contacts.astro';
+
+const { title, text, location, contacts, image } = Astro.props;
 ---
 
-<h1>{title}</h1>
-<p>{text}</p>
+<section>
+	<h1>{title}</h1>
+	<p>{text}</p>
+	<Link {...location}><span>Icon</span>{location.text}</Link>
+	<Contacts contacts={contacts} />
+</section>
+{
+	!!image.src && (
+		<figure>
+			<img {...image} />
+		</figure>
+	)
+}
