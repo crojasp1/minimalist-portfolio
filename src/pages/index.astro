@@ -10,11 +10,14 @@ import Skills from '@components/section/Skills.astro';
 import Languages from '@components/section/Languages.astro';
 import cvLang from '@utils/cv-lang';
 
-const resume = await cvLang('en');
+const lang = 'en';
+const title = 'Marvin Daniel Cely Báez | Software Engineer';
+
+const resume = await cvLang(lang);
 const { hero, about, work, education, skills, languagues } = resume;
 ---
 
-<Layout title="Marvin Daniel Cely Báez | Software Engineer" lang={'en'}>
+<Layout title={title} lang={lang}>
 	<main>
 		<Hero {...hero} />
 		<About {...about} />
@@ -26,4 +29,10 @@ const { hero, about, work, education, skills, languagues } = resume;
 	<KeyboardManager />
 </Layout>
 
-<style></style>
+<style>
+	main {
+		padding: 4rem;
+		margin: auto;
+		width: fit-content;
+	}
+</style>

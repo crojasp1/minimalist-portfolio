@@ -1,14 +1,16 @@
 {
 	"hero": {
 		"title": "Marvin Daniel Cely Báez",
-		"text": "lorem itsum",
+		"text": "Frontend Engineer con más de 5 años de experiencia colaborando y creando productos de calidad.",
 		"location": {
 			"text": "Bogotá, Colombia",
 			"link": "https://www.google.com/maps/place/Bogot%C3%A1"
 		},
 		"contacts": [
-			{ "icon": "mail", "link": "" },
-			{ "icon": "github", "link": "" }
+			{ "icon": "linkedin", "link": "", "title": "Ir a mi Linked In" },
+			{ "icon": "mail", "link": "", "title": "Contáctame a mi Gmail mardancely@gmail.com" },
+			{ "icon": "whatsapp", "link": "", "title": "Contáctame al WhatsApp +57 (305)701-3051" },
+			{ "icon": "github", "link": "", "title": "Visita mi Github" }
 		],
 		"image": {
 			"src": "/me.webp",
@@ -50,22 +52,25 @@
 		]
 	},
 	"education": {
-		"title": "Pontificial universidad Javeriana",
-		"projects": [
+		"title": "Educación",
+		"experiences": [
 			{
-				"name": "Ingeniero de Sistemas",
-				"duration": {
-					"from": "May 2012",
-					"to": "June 2018"
-				}
+				"company": {
+					"name": "Pontificia Universidad Javeriana",
+					"duration": {
+						"from": "Jan 2012",
+						"to": "Sep 2018"
+					}
+				},
+				"role": "System Engineer"
 			}
 		]
 	},
 	"skills": {
 		"title": "Skills",
 		"badges": [
-			{ "text": "Javascript", "tooltip": "5 years" },
-			{ "text": "React", "tooltip": "5 years" }
+			{ "text": "Javascript", "tooltip": "5 years", "icon": "javascript" },
+			{ "text": "React", "tooltip": "5 years", "icon": "react" }
 		]
 	},
 	"languagues": {

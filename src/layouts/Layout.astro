@@ -26,7 +26,8 @@ const { title, lang } = Astro.props;
 
 	body {
 		background-color: $color-backgroud;
-		color: $color-primary;
+		color: $outer-space;
+		@extend .font-family-text;
 	}
 
 	h1,
@@ -34,25 +35,5 @@ const { title, lang } = Astro.props;
 	h3,
 	h4 {
 		color: $color-heading;
-	}
-
-	h1 {
-		font-weight: 900;
-	}
-
-	h2 {
-		font-weight: 800;
-	}
-
-	h3 {
-		font-weight: 700;
-	}
-
-	h4 {
-		font-weight: 600;
-	}
-
-	h5 {
-		font-weight: 500;
 	}
 </style>

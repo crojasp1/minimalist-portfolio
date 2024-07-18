@@ -1,13 +1,69 @@
 ---
 import Link from '@components/Link.astro';
+import icons from './icons';
+
+type Contact = {
+	link: string;
+	icon: string;
+	title: string;
+};
+
+interface Props {
+	contacts: Contact[];
+}
 
 const { contacts } = Astro.props;
 ---
 
-{
-	contacts.map((contact) => (
-		<Link {...contact}>
-			<span>{contact.icon}</span>
-		</Link>
-	))
-}
+<footer>
+	{
+		contacts.map((contact) => {
+			const Icon = icons(contact.icon);
+
+			return (
+				<Link {...contact}>
+					<Icon />
+				</Link>
+			);
+		})
+	}
+</footer>
+<style lang="scss">
+	@use '@scss/index' as *;
+
+	footer {
+		display: flex;
+		width: fit-content;
+
+		:global(a) {
+			width: 1.2rem;
+			height: 1.2rem;
+			margin: 0.2rem;
+			padding: 0.5rem;
+			border: solid $french-gray 1px;
+			border-radius: 5px;
+			transition: all 0.3s ease;
+
+			&:first-child {
+				margin-left: 0;
+			}
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			:global(svg) {
+				fill: $slate-gray;
+			}
+
+			&:hover {
+				border: solid $french-gray-2 1px;
+				background-color: $platinum;
+
+				:global(svg) {
+					fill: $outer-space;
+				}
+			}
+		}
+	}
+</style>

@@ -6,5 +6,19 @@ const { title, badges } = Astro.props;
 ---
 
 <Section title={title}>
-	{!!badges?.length && badges.map((badge) => <Bagde {...badge} />)}
+	{
+		!!badges?.length && (
+			<div>
+				{badges.map((badge) => (
+					<Bagde {...badge} />
+				))}
+			</div>
+		)
+	}
 </Section>
+<style>
+	div {
+		display: flex;
+		gap: 0.5rem;
+	}
+</style>

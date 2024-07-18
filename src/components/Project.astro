@@ -10,3 +10,16 @@ const { name, duration, description = {} } = Astro.props;
 	{!!duration && <Duration {...duration} />}
 </header>
 {!!Object.keys(description).length && <Description {...description} />}
+<style lang="scss">
+	@use '@scss/index' as *;
+
+	header {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	h6 {
+		font-weight: 500;
+		font-size: 0.9rem;
+	}
+</style>

@@ -1,20 +1,63 @@
 ---
 import Link from '@components/Link.astro';
 import Contacts from '@components/Contacts.astro';
+import icons from './icons';
 
 const { title, text, location, contacts, image } = Astro.props;
+
+const World = icons('world');
 ---
 
-<section>
-	<h1>{title}</h1>
-	<p>{text}</p>
-	<Link {...location}><span>Icon</span>{location.text}</Link>
-	<Contacts contacts={contacts} />
-</section>
-{
-	!!image.src && (
-		<figure>
-			<img {...image} />
-		</figure>
-	)
-}
+<article>
+	<section>
+		<h1>{title}</h1>
+		<p>{text}</p>
+		<Link {...location}><World />{location.text}</Link>
+		<Contacts contacts={contacts} />
+	</section>
+	{!!image.src && <img {...image} />}
+</article>
+
+<style lang="scss">
+	@use '@scss/index' as *;
+
+	article {
+		align-items: center;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 1rem;
+		max-width: $width-page;
+
+		h1 {
+			font-size: 2rem;
+			font-weight: bold;
+		}
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+
+		p {
+			font-size: 1.1rem;
+			font-weight: 500;
+			text-wrap: balance;
+		}
+	}
+
+	p + :global(a svg) {
+		color: $outer-space;
+		height: 1rem;
+		margin-right: 0.2rem;
+		vertical-align: bottom;
+		width: 1rem;
+	}
+
+	img {
+		aspect-ratio: 1 / 1;
+		border-radius: 1rem;
+		object-fit: cover;
+		height: 8rem;
+	}
+</style>
