@@ -25,29 +25,36 @@
 		"title": "Career History",
 		"experiences": [
 			{
-				"company": {
+				"organization": {
 					"name": "Mercado Libre",
-					"badge": {
-						"text": "Hybrid"
-					},
-					"duration": {
-						"from": "May 2023",
-						"to": "June 2024"
-					}
+					"badges": [{ "text": "Hybrid", "tooltip": "Jornada completa" }],
+					"duration": { "from": "May 2023", "to": "June 2024" }
 				},
 				"role": "Sr Software Engineer",
-				"projects": [
-					{
-						"name": "Clips",
-						"duration": {
-							"from": "May 2023",
-							"to": "June 2024"
-						},
-						"description": {
-							"text": "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL"
-						}
-					}
-				]
+				"description": {
+					"list": [
+						"Lista de responsabilidades 1",
+						"Lista de responsabilidades 2",
+						"Lista de responsabilidades 3",
+						"Lista de responsabilidades 4"
+					]
+				}
+			},
+			{
+				"organization": {
+					"name": "Nodo EAFIT",
+					"badges": [{ "text": "Remote", "tooltip": "Jornada parcial" }],
+					"duration": { "from": "May 2023", "to": "June 2024" }
+				},
+				"role": "Instructor Frontend",
+				"description": {
+					"list": [
+						"Lista de responsabilidades 1",
+						"Lista de responsabilidades 2",
+						"Lista de responsabilidades 3",
+						"Lista de responsabilidades 4"
+					]
+				}
 			}
 		]
 	},
@@ -55,14 +62,13 @@
 		"title": "Educación",
 		"experiences": [
 			{
-				"company": {
-					"name": "Pontificia Universidad Javeriana",
-					"duration": {
-						"from": "Jan 2012",
-						"to": "Sep 2018"
-					}
+				"organization": {
+					"name": "Pontificia Universidad Javeriana"
 				},
-				"role": "System Engineer"
+				"initiatives": [
+					{ "name": "Ingeniero de software", "duration": { "from": "May 2023", "to": "June 2024" } },
+					{ "name": "Maestría de IA", "duration": { "from": "May 2023", "to": "present" } }
+				]
 			}
 		]
 	},
@@ -70,7 +76,50 @@
 		"title": "Skills",
 		"badges": [
 			{ "text": "Javascript", "tooltip": "5 years", "icon": "javascript" },
-			{ "text": "React", "tooltip": "5 years", "icon": "react" }
+			{ "text": "React", "tooltip": "5 years", "icon": "react" },
+			{ "text": "NodeJS", "tooltip": "5 years", "icon": "nodejs" },
+			{ "text": "Typescript", "tooltip": "5 years", "icon": "typescript" },
+			{ "text": "SASS", "tooltip": "5 years", "icon": "sass" },
+			{ "text": "CSS", "tooltip": "5 years", "icon": "css" },
+			{ "text": "HTML", "tooltip": "5 years", "icon": "html" },
+			{ "text": "Angular", "tooltip": "5 years", "icon": "angular" }
+		]
+	},
+	"projects": {
+		"title": "Projects",
+		"list": [
+			{
+				"name": "Clips",
+				"link": "www.google.com",
+				"description": {
+					"text": "CLips is a tiktok"
+				},
+				"badges": [{ "text": "React" }, { "text": "Fury" }]
+			},
+			{
+				"name": "Clips",
+				"link": "www.google.com",
+				"description": {
+					"text": "Historia interactiva con retos de programación para viajar a Marte"
+				},
+				"badges": [{ "text": "React" }, { "text": "Fury" }]
+			},
+			{
+				"name": "Clips",
+				"link": "www.google.com",
+				"description": {
+					"text": "CLips is a tiktok"
+				},
+				"badges": [{ "text": "React" }, { "text": "Fury" }]
+			},
+			{
+				"name": "Clips",
+				"link": "www.google.com",
+				"description": {
+					"text": "CLips is a tiktok"
+				},
+				"badges": [{ "text": "React" }, { "text": "Fury" }]
+			}
 		]
 	},
 	"languagues": {

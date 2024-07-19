@@ -1,0 +1,30 @@
+---
+import Duration from '@components/Duration.astro';
+import Description from '@components/Description.astro';
+import type { Props as DescriptionProps } from '@components/Description.astro';
+import type { Props as DurationProps } from '@components/Duration.astro';
+
+export interface Props {
+	name: string;
+	duration: DurationProps;
+	description?: DescriptionProps;
+}
+
+const { name, duration, description = {} } = Astro.props;
+---
+
+<header>
+	<h5>{name}</h5>
+	{!!duration && <Duration {...duration} />}
+</header>
+{!!Object.keys(description).length && <Description {...description} />}
+<style>
+	h5 {
+		font-weight: 500;
+	}
+
+	header {
+		display: flex;
+		justify-content: space-between;
+	}
+</style>

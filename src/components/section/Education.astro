@@ -1,10 +1,11 @@
 ---
 import Section from '@components/Section.astro';
 import Experience from '@components/Experience.astro';
+import type { Props as ExperienceProps } from '@components/Experience.astro';
 
 const { title, experiences } = Astro.props;
 ---
 
 <Section title={title}>
-	{!!experiences?.length && experiences.map((experience) => <Experience {...experience} />)}
+	{!!experiences?.length && experiences.map((experience: ExperienceProps) => <Experience {...experience} />)}
 </Section>

@@ -5,7 +5,7 @@ import Work from '@components/section/Work.astro';
 import Hero from '@components/Hero.astro';
 import KeyboardManager from '@components/KeyboardManager.astro';
 import Layout from '@layouts/Layout.astro';
-import Projects from '@components/Project.astro';
+import Projects from '@components/section/Projects.astro';
 import Skills from '@components/section/Skills.astro';
 import Languages from '@components/section/Languages.astro';
 import cvLang from '@utils/cv-lang';
@@ -14,16 +14,17 @@ const lang = 'en';
 const title = 'Marvin Daniel Cely Báez | Software Engineer';
 
 const resume = await cvLang(lang);
-const { hero, about, work, education, skills, languagues } = resume;
+const { hero, about, work, education, skills, languagues, projects } = resume;
 ---
 
 <Layout title={title} lang={lang}>
 	<main>
 		<Hero {...hero} />
 		<About {...about} />
+		<Skills {...skills} />
 		<Work {...work} />
 		<Education {...education} />
-		<Skills {...skills} />
+		<Projects {...projects} />
 		<Languages {...languagues} />
 	</main>
 	<KeyboardManager />

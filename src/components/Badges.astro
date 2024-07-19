@@ -1,0 +1,62 @@
+---
+import icons from './icons';
+
+export type Badge = {
+	text: string;
+	tooltip?: string;
+	icon: string;
+};
+
+interface Props {
+	badges: Badge[];
+}
+
+const { badges } = Astro.props;
+---
+
+<ul>
+	{
+		badges.map((badge) => {
+			const { tooltip, icon, text } = badge;
+			const Icon = icons(icon);
+
+			return (
+				<li>
+					<span title={tooltip}>
+						{!!icon && <Icon />}
+						{text}
+					</span>
+				</li>
+			);
+		})
+	}
+</ul>
+<style lang="scss">
+	@use '@scss/index' as *;
+
+	ul {
+		display: flex;
+		gap: 0.5rem;
+	}
+
+	span {
+		align-items: center;
+		background-color: $platinum;
+		border-radius: 0.25rem;
+		display: inline-flex;
+		font-size: 0.7rem;
+		font-weight: 600;
+		gap: 0.25rem;
+		line-height: initial;
+		padding: 0.25rem 0.5rem;
+
+		&:hover {
+			background-color: $french-gray;
+		}
+
+		:global(svg) {
+			width: 1rem;
+			height: 1rem;
+		}
+	}
+</style>

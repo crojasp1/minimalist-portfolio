@@ -1,21 +1,17 @@
 ---
-import Bagde from '../Bagde.astro';
+import Badges from '../Badges.astro';
+import type { Badge } from '../Badges.astro';
 import Section from '@components/Section.astro';
+
+interface Props {
+	title: string;
+	badges: Badge[];
+}
 
 const { title, badges } = Astro.props;
 ---
 
-<Section title={title}>
-	{
-		!!badges?.length && (
-			<div>
-				{badges.map((badge) => (
-					<Bagde {...badge} />
-				))}
-			</div>
-		)
-	}
-</Section>
+<Section title={title}> {!!badges?.length && <Badges badges={badges} />}</Section>
 <style>
 	div {
 		display: flex;

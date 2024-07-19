@@ -1,26 +1,41 @@
 ---
-import Bagde from '@components/Bagde.astro';
-import Duration from '@components/Duration.astro';
-import Project from '@components/Project.astro';
-import Vendor from '@components/Vendor.astro';
+import Badges from '@components/Badges.astro';
 import Description from '@components/Description.astro';
+import Duration from '@components/Duration.astro';
+import type { Badge } from '@components/Badges.astro';
+import type { Props as DescriptionProps } from '@components/Description.astro';
+import type { Props as DurationProps } from '@components/Duration.astro';
+import Initiative from '@components/Initiative.astro';
+import type { Props as InitiativeProps } from '@components/Initiative.astro';
 
-const { company, role, description = {}, projects, vendors } = Astro.props;
-const { name, badge, duration } = company;
+type Organization = {
+	name: string;
+	badges?: Badge[];
+	duration?: DurationProps;
+};
+
+export interface Props {
+	organization: Organization;
+	role?: string;
+	description?: DescriptionProps;
+	initiatives?: InitiativeProps[];
+}
+
+const { organization, role, description = {}, initiatives = [] } = Astro.props;
+const { name, badges, duration } = organization;
 ---
 
 <header>
 	<section>
 		<h3>{name}</h3>
-		{badge && !!Object.keys(badge).length && <Bagde {...badge} />}
+		{!!badges?.length && <Badges badges={badges} />}
 	</section>
-	<Duration {...duration} />
+	{!!duration && <Duration {...duration} />}
 </header>
 <main>
-	<h4>{role}</h4>
+	{!!role && <h4>{role}</h4>}
 	{!!Object.keys(description).length && <Description {...description} />}
-	{!!projects?.length && projects.map((project) => <Project {...project} />)}
-	{!!vendors?.length && vendors.map((vendor) => <Vendor {...vendor} />)}
+	{!!initiatives?.length && initiatives.map((initiative) => <Initiative {...initiative} />)}
 </main>
 
 <style lang="scss">
@@ -32,6 +47,7 @@ const { name, badge, duration } = company;
 
 	h4 {
 		font-weight: 600;
+		font-size: 0.9rem;
 	}
 
 	header {

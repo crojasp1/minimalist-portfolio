@@ -11,3 +11,8 @@ const { link, target = '_blank', title } = Astro.props;
 <a href={link} target={target} title={title}>
 	<slot />
 </a>
+<style>
+	a:hover {
+		text-decoration: underline;
+	}
+</style>

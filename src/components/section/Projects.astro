@@ -1,0 +1,27 @@
+---
+import Section from '@components/Section.astro';
+import Project from '@components/Project.astro';
+import type { Props as ProjectProps } from '@components/Project.astro';
+
+const { title, list = [] } = Astro.props;
+---
+
+<Section title={title}>
+	<ul>
+		{
+			!!list?.length &&
+				list.map((project: ProjectProps) => (
+					<li>
+						<Project {...project} />
+					</li>
+				))
+		}
+	</ul>
+</Section>
+<style>
+	ul {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 1rem;
+	}
+</style>

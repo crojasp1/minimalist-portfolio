@@ -1,25 +1,47 @@
 ---
+import Badges from '@components/Badges.astro';
 import Description from '@components/Description.astro';
-import Duration from '@components/Duration.astro';
+import Link from './Link.astro';
+import type { Badge } from '@components/Badges.astro';
+import type { Props as DescriptionProps } from '@components/Description.astro';
 
-const { name, duration, description = {} } = Astro.props;
+export interface Props {
+	badges: Badge[];
+	description: DescriptionProps;
+	link?: string;
+	name: string;
+}
+
+const { name, description = {}, badges = [], link } = Astro.props;
 ---
 
-<header>
-	<h6>{name}</h6>
-	{!!duration && <Duration {...duration} />}
-</header>
-{!!Object.keys(description).length && <Description {...description} />}
+<article>
+	<section>
+		<h5>
+			{link ? <Link link={link}>{name}</Link> : name}
+		</h5>
+		{!!Object.keys(description).length && <Description {...description} />}
+	</section>
+	{!!badges?.length && <Badges badges={badges} />}
+</article>
 <style lang="scss">
 	@use '@scss/index' as *;
 
-	header {
+	article {
+		border: solid 1px $french-gray;
+		border-radius: 0.25rem;
+		padding: 1rem;
 		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		box-sizing: border-box;
+		height: 100%;
 		justify-content: space-between;
-	}
 
-	h6 {
-		font-weight: 500;
-		font-size: 0.9rem;
+		h5 {
+			margin-bottom: 0.5rem;
+			font-weight: 600;
+			font-size: 0.9rem;
+		}
 	}
 </style>

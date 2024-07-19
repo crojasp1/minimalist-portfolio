@@ -5,6 +5,12 @@ import Whatsapp from './Whatsapp.astro';
 import World from './World.astro';
 import Javascript from './Javascript.astro';
 import React from './React.astro';
+import NodeJs from './NodeJs.astro';
+import Angular from './Angular.astro';
+import Sass from './Sass.astro';
+import Typescript from './Typescript.astro';
+import HTML from './HTML.astro';
+import CSS from './CSS.astro';
 
 const icons = {
 	github: Github,
@@ -13,7 +19,13 @@ const icons = {
 	whatsapp: Whatsapp,
   world: World,
   javascript: Javascript,
-  react: React
+  react: React,
+	nodejs: NodeJs,
+	angular: Angular,
+	sass: Sass,
+	typescript: Typescript,
+	html: HTML,
+	css: CSS,
 };
 
 

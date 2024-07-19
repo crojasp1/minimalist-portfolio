@@ -1,10 +1,22 @@
 ---
 import Experience from '../Experience.astro';
 import Section from '@components/Section.astro';
+import type { Props as ExperienceProps } from '@components/Experience.astro';
 
 const { title, experiences } = Astro.props;
 ---
 
 <Section title={title}>
-	{experiences.map((experience) => <Experience {...experience} />)}
+	{
+		experiences.map((experience: ExperienceProps) => (
+			<div>
+				<Experience {...experience} />
+			</div>
+		))
+	}
 </Section>
+<style>
+	:global(section) > div:not(:last-child) {
+		margin-bottom: 0.5rem;
+	}
+</style>
