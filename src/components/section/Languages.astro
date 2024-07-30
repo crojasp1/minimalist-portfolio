@@ -1,17 +1,10 @@
 ---
 import Section from '@components/Section.astro';
+import Badges from '@components/Badges.astro';
 
-const { title, list } = Astro.props;
+const { title, badges } = Astro.props;
 ---
 
 <Section title={title}>
-	{
-		!!list?.length && (
-			<ul>
-				{list.map(({ text, level }) => (
-					<li>{`${text}: ${level}`}</li>
-				))}
-			</ul>
-		)
-	}
+	{!!badges?.length && <Badges badges={badges} />}
 </Section>

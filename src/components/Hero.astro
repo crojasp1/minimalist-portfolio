@@ -1,7 +1,7 @@
 ---
 import Link from '@components/Link.astro';
 import Contacts from '@components/Contacts.astro';
-import icons from './icons';
+import icons from '@icons/index';
 
 const { title, text, location, contacts, image } = Astro.props;
 
@@ -27,6 +27,19 @@ const World = icons('world');
 		justify-content: space-between;
 		margin-bottom: 1rem;
 		max-width: $width-page;
+		gap: 1rem;
+
+		@media (width <= 700px) {
+			flex-direction: column-reverse;
+			section {
+				align-items: center;
+			}
+
+			section p,
+			section h1 {
+				text-align: center;
+			}
+		}
 
 		h1 {
 			font-size: 2rem;

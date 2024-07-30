@@ -11,6 +11,7 @@ import Sass from './Sass.astro';
 import Typescript from './Typescript.astro';
 import HTML from './HTML.astro';
 import CSS from './CSS.astro';
+import Git from './Git.astro';
 
 const icons = {
 	github: Github,
@@ -26,6 +27,7 @@ const icons = {
 	typescript: Typescript,
 	html: HTML,
 	css: CSS,
+	git: Git
 };
 
 

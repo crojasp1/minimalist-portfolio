@@ -14,7 +14,7 @@ const lang = 'en';
 const title = 'Marvin Daniel Cely Báez | Software Engineer';
 
 const resume = await cvLang(lang);
-const { hero, about, work, education, skills, languagues, projects } = resume;
+const { hero, about, work, education, skills, languagues, projects, keyboardManager } = resume;
 ---
 
 <Layout title={title} lang={lang}>
@@ -27,13 +27,13 @@ const { hero, about, work, education, skills, languagues, projects } = resume;
 		<Projects {...projects} />
 		<Languages {...languagues} />
 	</main>
-	<KeyboardManager />
+	<KeyboardManager {...keyboardManager} />
 </Layout>
 
 <style>
 	main {
 		padding: 4rem;
 		margin: auto;
-		width: fit-content;
+		max-width: fit-content;
 	}
 </style>

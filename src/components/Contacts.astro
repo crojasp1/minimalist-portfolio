@@ -1,11 +1,12 @@
 ---
 import Link from '@components/Link.astro';
-import icons from './icons';
+import icons from '@icons/index';
 
 type Contact = {
 	link: string;
 	icon: string;
 	title: string;
+	print?: string;
 };
 
 interface Props {
@@ -17,13 +18,21 @@ const { contacts } = Astro.props;
 
 <footer>
 	{
-		contacts.map((contact) => {
-			const Icon = icons(contact.icon);
+		contacts.map((contact, index, { length }) => {
+			const { icon, print, link, title } = contact;
+			const Icon = icons(icon);
 
 			return (
-				<Link {...contact}>
-					<Icon />
-				</Link>
+				<>
+					<Link className="no-print" {...{ link, title }}>
+						<Icon />
+					</Link>
+					{print && (
+						<Link className="print" {...{ link, title }}>
+							{contact.print}
+						</Link>
+					)}
+				</>
 			);
 		})
 	}
@@ -31,26 +40,32 @@ const { contacts } = Astro.props;
 <style lang="scss">
 	@use '@scss/index' as *;
 
+	@include print-no-print;
+
 	footer {
 		display: flex;
 		width: fit-content;
+		flex-wrap: wrap;
+		gap: 0.5rem;
 
-		:global(a) {
+		@media print {
+			&:has(.print) {
+				flex-direction: column;
+			}
+		}
+
+		:global(.print) {
+			font-size: 0.75rem;
+			text-decoration: underline;
+		}
+
+		:global(a.no-print) {
 			width: 1.2rem;
 			height: 1.2rem;
-			margin: 0.2rem;
 			padding: 0.5rem;
 			border: solid $french-gray 1px;
 			border-radius: 0.25rem;
 			transition: all 0.3s ease;
-
-			&:first-child {
-				margin-left: 0;
-			}
-
-			&:last-child {
-				margin-right: 0;
-			}
 
 			:global(svg) {
 				fill: $slate-gray;

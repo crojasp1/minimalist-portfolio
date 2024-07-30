@@ -1,16 +1,31 @@
 {
 	"hero": {
 		"title": "Marvin Daniel Cely Báez",
-		"text": "Frontend Engineer con más de 5 años de experiencia colaborando y creando productos de calidad.",
+		"text": "Frontend Engineer with more than 5 years of experience collaborating and creating quality products.",
 		"location": {
 			"text": "Bogotá, Colombia",
 			"link": "https://www.google.com/maps/place/Bogot%C3%A1"
 		},
 		"contacts": [
-			{ "icon": "linkedin", "link": "", "title": "Ir a mi Linked In" },
-			{ "icon": "mail", "link": "", "title": "Contáctame a mi Gmail mardancely@gmail.com" },
-			{ "icon": "whatsapp", "link": "", "title": "Contáctame al WhatsApp +57 (305)701-3051" },
-			{ "icon": "github", "link": "", "title": "Visita mi Github" }
+			{
+				"icon": "linkedin",
+				"link": "https://www.linkedin.com/in/marvin-cely/",
+				"title": "Go to my Linked In",
+				"print": "https://www.linkedin.com/in/marvin-cely/"
+			},
+			{
+				"icon": "mail",
+				"link": "mailto:mardancely@gmail.com",
+				"title": "Contact me at mardancely@gmail.com",
+				"print": "mardancely@gmail.com"
+			},
+			{
+				"icon": "whatsapp",
+				"link": "https://wa.link/kx7n00",
+				"title": "Contact me at WhatsApp +57 (305)701-3051",
+				"print": "+57 (305)701-3051"
+			},
+			{ "icon": "github", "link": "https://github.com/DanteCely", "title": "Visit my Github" }
 		],
 		"image": {
 			"src": "/me.webp",
@@ -19,7 +34,7 @@
 	},
 	"about": {
 		"title": "About",
-		"text": "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide."
+		"text": "I can my technical skills to create impactful digital experiences. With a solid background as a Systems Engineer from Pontificia Universidad Javeriana and currently pursuing a Master's in Artificial Intelligence, I currently work as a Software Developer and Front-end Instructor. I enjoy tackling challenges from conceptualization to implementation and maintenance, ensuring complete workflows and robust architecture. I am an expert in task analysis, deployment support, and effective collaboration with key stakeholders in UX, product, and other areas."
 	},
 	"work": {
 		"title": "Career History",
@@ -67,6 +82,7 @@
 				},
 				"initiatives": [
 					{ "name": "Ingeniero de software", "duration": { "from": "May 2023", "to": "June 2024" } },
+					{ "name": "Maestría de INgeniería de Sistemas", "duration": { "from": "May 2023", "to": "present" } },
 					{ "name": "Maestría de IA", "duration": { "from": "May 2023", "to": "present" } }
 				]
 			}
@@ -82,6 +98,7 @@
 			{ "text": "SASS", "tooltip": "5 years", "icon": "sass" },
 			{ "text": "CSS", "tooltip": "5 years", "icon": "css" },
 			{ "text": "HTML", "tooltip": "5 years", "icon": "html" },
+			{ "text": "Git", "tooltip": "5 years", "icon": "git" },
 			{ "text": "Angular", "tooltip": "5 years", "icon": "angular" }
 		]
 	},
@@ -124,9 +141,19 @@
 	},
 	"languagues": {
 		"title": "Languagues",
-		"list": [
-			{ "text": "English", "level": "B1" },
-			{ "text": "Spanish", "level": "Native" }
+		"badges": [{ "text": "English: B2" }, { "text": "Spanish: Native" }]
+	},
+	"keyboardManager": {
+		"text": "Press {command} to open the command menu.",
+		"commands": [
+			{
+				"id": "print",
+				"title": "Print",
+				"icon": "printIcon",
+				"hotkey": "{keyCommand}+P",
+				"section": "Actions",
+				"handler": "print"
+			}
 		]
 	}
 }

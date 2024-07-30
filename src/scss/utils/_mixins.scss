@@ -1,0 +1,31 @@
+@mixin print-no-print {
+	:global(.print) {
+		display: none !important;
+	}
+
+	:global(.no-print) {
+		display: block !important;
+	}
+
+	@media print {
+		:global(.print) {
+			display: block !important;
+		}
+
+		:global(.no-print) {
+			display: none !important;
+		}
+	}
+}
+
+@mixin badge($color) {
+	align-items: center;
+	background-color: $color;
+	border-radius: 0.25rem;
+	display: inline-flex;
+	font-size: 0.7rem;
+	font-weight: 600;
+	gap: 0.25rem;
+	line-height: initial;
+	padding: 0.25rem 0.5rem;
+}

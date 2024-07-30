@@ -1,3 +1,74 @@
-<footer>Keyboard Manager</footer>
-<script></script>
-<style></style>
+---
+type Command = {
+	title: string;
+	hotkey: string;
+	section: string;
+	id: string;
+	icon: string;
+};
+
+interface Props {
+	text: string;
+	commands: Command[];
+}
+
+const { text, commands } = Astro.props;
+
+const [left, right] = text.split('{command}');
+---
+
+<footer class="no-print">
+	{left}<kbd>Ctrl</kbd> + <kbd>K</kbd>{right}
+
+	<ninja-keys class="no-print"> </ninja-keys>
+</footer>
+<script>
+	import 'ninja-keys';
+	import { getKeyCommand } from '@utils/detect-os';
+	import * as stringIcons from '../icons/string-icons';
+
+	const ninja = document.querySelector('ninja-keys');
+
+	if (ninja) {
+		const keyCommand = getKeyCommand();
+		const firstKeyEl = document.querySelector('kbd');
+
+		const handlers = {
+			print: () => window.print(),
+			redirect: function () {
+				window.open(this.link, '_blank');
+			},
+		};
+
+		firstKeyEl.textContent = keyCommand;
+		// TODO:
+		ninja.data = commands.map((command) => {
+			const { icon, hotkey, handler } = command;
+			return {
+				...command,
+				icon: stringIcons[icon],
+				hotkey: hotkey.replace('{keyCommand}', keyCommand),
+				handler: handlers[handler],
+			};
+		});
+	}
+</script>
+<style lang="scss">
+	@use '@scss/index' as *;
+
+	footer {
+		background-color: inherit;
+		border-top: solid 1px $french-gray;
+		bottom: 0;
+		font-size: 0.85rem;
+		font-weight: 500;
+		padding-block: 0.5rem;
+		position: fixed;
+		text-align: center;
+		width: 100%;
+	}
+
+	kbd {
+		@include badge($antiflash-white);
+	}
+</style>

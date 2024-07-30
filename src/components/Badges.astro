@@ -1,5 +1,5 @@
 ---
-import icons from './icons';
+import icons from '../icons';
 
 export type Badge = {
 	text: string;
@@ -37,18 +37,11 @@ const { badges } = Astro.props;
 	ul {
 		display: flex;
 		gap: 0.5rem;
+		flex-wrap: wrap;
 	}
 
 	span {
-		align-items: center;
-		background-color: $platinum;
-		border-radius: 0.25rem;
-		display: inline-flex;
-		font-size: 0.7rem;
-		font-weight: 600;
-		gap: 0.25rem;
-		line-height: initial;
-		padding: 0.25rem 0.5rem;
+		@include badge($platinum);
 
 		&:hover {
 			background-color: $french-gray;

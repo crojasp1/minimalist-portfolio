@@ -3,12 +3,13 @@ interface Props {
 	link: string;
 	target?: string;
 	title?: string;
+	className?: string;
 }
 
-const { link, target = '_blank', title } = Astro.props;
+const { link, target = '_blank', title, className = '' } = Astro.props;
 ---
 
-<a href={link} target={target} title={title}>
+<a href={link} target={target} title={title} class={className}>
 	<slot />
 </a>
 <style>
