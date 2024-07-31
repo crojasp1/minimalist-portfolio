@@ -34,7 +34,7 @@
 	},
 	"about": {
 		"title": "About",
-		"text": "I can my technical skills to create impactful digital experiences. With a solid background as a Systems Engineer from Pontificia Universidad Javeriana and currently pursuing a Master's in Artificial Intelligence, I currently work as a Software Developer and Front-end Instructor. I enjoy tackling challenges from conceptualization to implementation and maintenance, ensuring complete workflows and robust architecture. I am an expert in task analysis, deployment support, and effective collaboration with key stakeholders in UX, product, and other areas."
+		"text": "Systems Engineer, frontend instructor and software developer transforming ideas into impactful digital experiences with JavaScript, NodeJS, React, Angular, CSS (SASS), among others; to create attractive and accessible web applications. I collaborate in agile teams (Scrum, Kanban, XP) to tackle end-to-end projects, from conceptualization to deployment and maintenance, ensuring robust and scalable solutions.\n My track record includes notable achievements such as launching Clips in Mercado Libre in Brazil, Argentina, Colombia, Mexico and Chile; implementing Upgrade Fare Type, to upgrade Southwest Airlines tickets; and providing innovative solutions supporting tax reporting and charting at Ernst & Young. My commitment to technical excellence and collaboration drives me to seek new challenges where I can continue to grow and make a significant impact."
 	},
 	"work": {
 		"title": "Career History",
@@ -42,48 +42,109 @@
 			{
 				"organization": {
 					"name": "Mercado Libre",
-					"badges": [{ "text": "Hybrid", "tooltip": "Jornada completa" }],
-					"duration": { "from": "May 2023", "to": "June 2024" }
+					"badges": [{ "text": "Hybrid", "tooltip": "Full-time" }],
+					"duration": { "from": "November 2021", "to": "May 2024" }
 				},
 				"role": "Sr Software Engineer",
 				"description": {
 					"list": [
-						"Lista de responsabilidades 1",
-						"Lista de responsabilidades 2",
-						"Lista de responsabilidades 3",
-						"Lista de responsabilidades 4"
+						"Contributed to the successful launch of Mercado Libre Clips, increasing sales in Argentina, Brazil, Mexico, Chile, and Colombia.",
+						"Supported the growth of Clips and my team by developing and implementing new features such as Coupons, Follow Seller, and Clips in Gallery, resulting in greater platform adoption.",
+						"Contributed to the analysis and implementation of Clips refactoring, utilizing design patterns such as Factory, Strategy, and Singleton with React hooks.",
+						"Collaborated closely with UX, product, and development teams to create robust features focused on key metrics for each quarter.",
+						"Improved the Mercado Libre Live Commerce project by optimizing the chat and enhancing responsive access to the streaming hub."
 					]
 				}
 			},
 			{
 				"organization": {
 					"name": "Nodo EAFIT",
-					"badges": [{ "text": "Remote", "tooltip": "Jornada parcial" }],
-					"duration": { "from": "May 2023", "to": "June 2024" }
+					"badges": [{ "text": "Remote", "tooltip": "Partial-time" }],
+					"duration": { "from": "October 2022", "to": "present" }
 				},
-				"role": "Instructor Frontend",
+				"role": "Frontend Instructor",
 				"description": {
 					"list": [
-						"Lista de responsabilidades 1",
-						"Lista de responsabilidades 2",
-						"Lista de responsabilidades 3",
-						"Lista de responsabilidades 4"
+						"Taught three front-end courses modules, focusing on knowledge transfer of over 30 aspiring software developers per course.",
+						"Designed programming challenges oriented to HTML (Semantic & A11Y), CSS (SASS), JavaScript, Node.js, and React, guiding students to successfully complete the module's final project."
+					]
+				}
+			},
+			{
+				"organization": {
+					"name": "Globant",
+					"badges": [{ "text": "Hybrid", "tooltip": "Full-time" }],
+					"duration": { "from": "June 2019", "to": "October 2021" }
+				},
+				"role": "Web UI Developer",
+				"initiatives": [
+					{
+						"name": "Erns & Young",
+						"duration": { "from": "April 2020", "to": "October 2021" },
+						"description": {
+							"list": [
+								"Analized, developed & optimized tax information flow table, error handler, data charts with Angular & Typescript.",
+								"Achieved in 3 months the refactoring of the Covid Incentives Taxs project, focusing on the componetization of simple to complex components with one-week sprints using React & Ant Design.",
+								"Migrated whole Staff Augmentation Report Analysis Project from Angular 4 to Angular 10 reestructuring all the code from zero, and keeping the same flow of the application.",
+								"Researched and created dashboards Spike (POC) using Kendo Chart JS in the client-side and getting the queries using LINQ and C# in the serve-side."
+							]
+						}
+					},
+					{
+						"name": "Southwest Airlines",
+						"duration": { "from": "June 2019", "to": "March 2020" },
+						"description": {
+							"list": [
+								"Acomplished the completely delivery of the Upgrade Ticket’s Airlines project using React (Classes), SASS with BEM and Scrum methodology.",
+								"Analyzed and improved the accessibility (A11Y) issues of the application and assessed by accessibility committee.",
+								"Collaborated actively the code review, tres amigos sessions and planning poker oriented with the client to deliver a high quality application."
+							]
+						}
+					}
+				]
+			},
+			{
+				"organization": {
+					"name": "IBM",
+					"badges": [{ "text": "On-site", "tooltip": "Full-time" }],
+					"duration": { "from": "November 2018", "to": "February 2019" }
+				},
+				"role": "Started Application Developer",
+				"description": {
+					"text": [
+						"Developed functional requirements of the Banco Caja Social such as login and profile page using Angular JS and Backbase framework."
+					]
+				}
+			},
+			{
+				"organization": {
+					"name": "Netlogistik",
+					"badges": [{ "text": "On-site", "tooltip": "Full-time" }],
+					"duration": { "from": "March 2017", "to": "October 2017" }
+				},
+				"role": "Software Engineer",
+				"description": {
+					"text": [
+						"Developed a portfolio of customized Key Performance Indicators (KPIs) that generates automatic reports according to the client in a Warehouse Management System (WMS) using Power BI."
 					]
 				}
 			}
 		]
 	},
 	"education": {
-		"title": "Educación",
+		"title": "Education",
 		"experiences": [
 			{
 				"organization": {
 					"name": "Pontificia Universidad Javeriana"
 				},
 				"initiatives": [
-					{ "name": "Ingeniero de software", "duration": { "from": "May 2023", "to": "June 2024" } },
-					{ "name": "Maestría de INgeniería de Sistemas", "duration": { "from": "May 2023", "to": "present" } },
-					{ "name": "Maestría de IA", "duration": { "from": "May 2023", "to": "present" } }
+					{ "name": "MSc, Master of Artificial Intelligence", "duration": { "from": "January 2021", "to": "present" } },
+					{
+						"name": "MSc, Master of Computer and Systems Engineering",
+						"duration": { "from": "January 2012", "to": "present" }
+					},
+					{ "name": "SE, Systems Engineering", "duration": { "from": "January 2019", "to": "September 2018" } }
 				]
 			}
 		]
@@ -91,51 +152,56 @@
 	"skills": {
 		"title": "Skills",
 		"badges": [
-			{ "text": "Javascript", "tooltip": "5 years", "icon": "javascript" },
-			{ "text": "React", "tooltip": "5 years", "icon": "react" },
-			{ "text": "NodeJS", "tooltip": "5 years", "icon": "nodejs" },
-			{ "text": "Typescript", "tooltip": "5 years", "icon": "typescript" },
-			{ "text": "SASS", "tooltip": "5 years", "icon": "sass" },
-			{ "text": "CSS", "tooltip": "5 years", "icon": "css" },
-			{ "text": "HTML", "tooltip": "5 years", "icon": "html" },
-			{ "text": "Git", "tooltip": "5 years", "icon": "git" },
-			{ "text": "Angular", "tooltip": "5 years", "icon": "angular" }
+			{ "text": "Javascript", "tooltip": "+5 years", "icon": "javascript" },
+			{ "text": "React", "tooltip": "+4 years", "icon": "react" },
+			{ "text": "NodeJS", "tooltip": "+2 years", "icon": "nodejs" },
+			{ "text": "Typescript", "tooltip": "+2 years", "icon": "typescript" },
+			{ "text": "SASS", "tooltip": "+5 years", "icon": "sass" },
+			{ "text": "CSS", "tooltip": "+5 years", "icon": "css" },
+			{ "text": "HTML", "tooltip": "+5 years", "icon": "html" },
+			{ "text": "Git", "tooltip": "+5 years", "icon": "git" },
+			{ "text": "Angular", "tooltip": "+1 years", "icon": "angular" }
 		]
 	},
 	"projects": {
 		"title": "Projects",
 		"list": [
 			{
-				"name": "Clips",
-				"link": "www.google.com",
+				"name": "Mercado Libre Clips",
+				"link": "https://vendedores.mercadolibre.com.mx/nota/sube-videos-de-tus-productos-para-llegar-a-mas-personas",
 				"description": {
-					"text": "CLips is a tiktok"
+					"text": "Similar experience to social networks where Mercado Libre sellers can create short moderated videos to enhance the buyers' experience."
 				},
-				"badges": [{ "text": "React" }, { "text": "Fury" }]
+				"badges": [
+					{ "text": "React" },
+					{ "text": "NodeJS" },
+					{ "text": "Fury" },
+					{ "text": "Datadog" },
+					{ "text": "New Relic" }
+				]
 			},
 			{
-				"name": "Clips",
-				"link": "www.google.com",
+				"name": "Mercado Livre Live",
+				"link": "https://www.linkedin.com/pulse/mercado-livre-live-commerce-bruno-meira/",
 				"description": {
 					"text": "Historia interactiva con retos de programación para viajar a Marte"
 				},
-				"badges": [{ "text": "React" }, { "text": "Fury" }]
+				"badges": [{ "text": "React" }, { "text": "NodeJS" }, { "text": "AWS" }, { "text": "OBS Studio" }]
 			},
 			{
-				"name": "Clips",
-				"link": "www.google.com",
+				"name": "Upgrade Fare Type",
+				"link": "https://www.southwest.com/air/upgrade/",
 				"description": {
 					"text": "CLips is a tiktok"
 				},
-				"badges": [{ "text": "React" }, { "text": "Fury" }]
+				"badges": [{ "text": "React" }, { "text": "A11Y Level AA" }, { "text": "Scrum Methology" }]
 			},
 			{
-				"name": "Clips",
-				"link": "www.google.com",
+				"name": "Banco Caja Social",
 				"description": {
 					"text": "CLips is a tiktok"
 				},
-				"badges": [{ "text": "React" }, { "text": "Fury" }]
+				"badges": [{ "text": "Angular JS" }]
 			}
 		]
 	},
@@ -153,6 +219,35 @@
 				"hotkey": "{keyCommand}+P",
 				"section": "Actions",
 				"handler": "print"
+			},
+			{
+				"id": "linkedin",
+				"title": "Visit Linked In",
+				"icon": "linkedinIcon",
+				"hotkey": "{keyCommand}+L",
+				"section": "Social",
+				"handler": "redirect",
+				"target": "_blank",
+				"link": "https://www.linkedin.com/in/marvin-cely/"
+			},
+			{
+				"id": "github",
+				"title": "Visit Github",
+				"icon": "githubIcon",
+				"hotkey": "{keyCommand}+G",
+				"section": "Social",
+				"handler": "redirect",
+				"target": "_blank",
+				"link": "https://github.com/DanteCely"
+			},
+			{
+				"id": "language",
+				"title": "Change to Spanish",
+				"icon": "languageIcon",
+				"hotkey": "{keyCommand}+S",
+				"section": "Language",
+				"handler": "redirect",
+				"link": "/es/"
 			}
 		]
 	}

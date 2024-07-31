@@ -18,7 +18,7 @@ const { name, duration, description = {} } = Astro.props;
 	{!!duration && <Duration {...duration} />}
 </header>
 {!!Object.keys(description).length && <Description {...description} />}
-<style>
+<style lang="scss">
 	h5 {
 		font-weight: 500;
 	}
@@ -26,5 +26,9 @@ const { name, duration, description = {} } = Astro.props;
 	header {
 		display: flex;
 		justify-content: space-between;
+
+		@media (width <= 700px) {
+			flex-direction: column;
+		}
 	}
 </style>

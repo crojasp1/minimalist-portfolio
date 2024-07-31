@@ -40,6 +40,7 @@ const { name, badges, duration } = organization;
 
 <style lang="scss">
 	@use '@scss/index' as *;
+
 	h3 {
 		font-weight: bold;
 		font-size: 1.2rem;
@@ -53,6 +54,10 @@ const { name, badges, duration } = organization;
 	header {
 		display: flex;
 		justify-content: space-between;
+
+		@media (width <= 700px) {
+			flex-direction: column;
+		}
 
 		section {
 			display: inline-flex;

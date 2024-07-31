@@ -1,74 +1,188 @@
 {
 	"hero": {
-		"title": "Marvin Daniel Cely Báezzzzz",
-		"text": "lorem itsum",
+		"title": "Marvin Daniel Cely Báez Español",
+		"text": "Frontend Engineer with more than 5 years of experience collaborating and creating quality products.",
 		"location": {
 			"text": "Bogotá, Colombia",
 			"link": "https://www.google.com/maps/place/Bogot%C3%A1"
 		},
 		"contacts": [
-			{ "icon": "mail", "link": "" },
-			{ "icon": "github", "link": "" }
-		]
+			{
+				"icon": "linkedin",
+				"link": "https://www.linkedin.com/in/marvin-cely/",
+				"title": "Go to my Linked In",
+				"print": "https://www.linkedin.com/in/marvin-cely/"
+			},
+			{
+				"icon": "mail",
+				"link": "mailto:mardancely@gmail.com",
+				"title": "Contact me at mardancely@gmail.com",
+				"print": "mardancely@gmail.com"
+			},
+			{
+				"icon": "whatsapp",
+				"link": "https://wa.link/kx7n00",
+				"title": "Contact me at WhatsApp +57 (305)701-3051",
+				"print": "+57 (305)701-3051"
+			},
+			{ "icon": "github", "link": "https://github.com/DanteCely", "title": "Visit my Github" }
+		],
+		"image": {
+			"src": "/me.webp",
+			"alt": "Marvin's Profile Image"
+		}
 	},
 	"about": {
 		"title": "About",
-		"text": "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide."
+		"text": "I can my technical skills to create impactful digital experiences. With a solid background as a Systems Engineer from Pontificia Universidad Javeriana and currently pursuing a Master's in Artificial Intelligence, I currently work as a Software Developer and Front-end Instructor. I enjoy tackling challenges from conceptualization to implementation and maintenance, ensuring complete workflows and robust architecture. I am an expert in task analysis, deployment support, and effective collaboration with key stakeholders in UX, product, and other areas."
 	},
 	"work": {
 		"title": "Career History",
 		"experiences": [
 			{
-				"company": {
+				"organization": {
 					"name": "Mercado Libre",
-					"badge": {
-						"text": "Hybrid"
-					},
-					"duration": {
-						"from": "May 2023",
-						"to": "June 2024"
-					}
+					"badges": [{ "text": "Hybrid", "tooltip": "Jornada completa" }],
+					"duration": { "from": "May 2023", "to": "June 2024" }
 				},
 				"role": "Sr Software Engineer",
-				"projects": [
-					{
-						"name": "Clips",
-						"duration": {
-							"from": "May 2023",
-							"to": "June 2024"
-						},
-						"description": {
-							"text": "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL"
-						}
-					}
-				]
+				"description": {
+					"list": [
+						"Lista de responsabilidades 1",
+						"Lista de responsabilidades 2",
+						"Lista de responsabilidades 3",
+						"Lista de responsabilidades 4"
+					]
+				}
+			},
+			{
+				"organization": {
+					"name": "Nodo EAFIT",
+					"badges": [{ "text": "Remote", "tooltip": "Jornada parcial" }],
+					"duration": { "from": "May 2023", "to": "June 2024" }
+				},
+				"role": "Instructor Frontend",
+				"description": {
+					"list": [
+						"Lista de responsabilidades 1",
+						"Lista de responsabilidades 2",
+						"Lista de responsabilidades 3",
+						"Lista de responsabilidades 4"
+					]
+				}
 			}
 		]
 	},
 	"education": {
-		"title": "Pontificial universidad Javeriana",
-		"projects": [
+		"title": "Educación",
+		"experiences": [
 			{
-				"name": "Ingeniero de Sistemas",
-				"duration": {
-					"from": "May 2012",
-					"to": "June 2018"
-				}
+				"organization": {
+					"name": "Pontificia Universidad Javeriana"
+				},
+				"initiatives": [
+					{ "name": "Ingeniero de software", "duration": { "from": "May 2023", "to": "June 2024" } },
+					{ "name": "Maestría de INgeniería de Sistemas", "duration": { "from": "May 2023", "to": "present" } },
+					{ "name": "Maestría de IA", "duration": { "from": "May 2023", "to": "present" } }
+				]
 			}
 		]
 	},
 	"skills": {
 		"title": "Skills",
 		"badges": [
-			{ "text": "Javascript", "tooltip": "5 years" },
-			{ "text": "React", "tooltip": "5 years" }
+			{ "text": "Javascript", "tooltip": "5 years", "icon": "javascript" },
+			{ "text": "React", "tooltip": "5 years", "icon": "react" },
+			{ "text": "NodeJS", "tooltip": "5 years", "icon": "nodejs" },
+			{ "text": "Typescript", "tooltip": "5 years", "icon": "typescript" },
+			{ "text": "SASS", "tooltip": "5 years", "icon": "sass" },
+			{ "text": "CSS", "tooltip": "5 years", "icon": "css" },
+			{ "text": "HTML", "tooltip": "5 years", "icon": "html" },
+			{ "text": "Git", "tooltip": "5 years", "icon": "git" },
+			{ "text": "Angular", "tooltip": "5 years", "icon": "angular" }
+		]
+	},
+	"projects": {
+		"title": "Projects",
+		"list": [
+			{
+				"name": "Clips",
+				"link": "www.google.com",
+				"description": {
+					"text": "CLips is a tiktok"
+				},
+				"badges": [{ "text": "React" }, { "text": "Fury" }]
+			},
+			{
+				"name": "Clips",
+				"link": "www.google.com",
+				"description": {
+					"text": "Historia interactiva con retos de programación para viajar a Marte"
+				},
+				"badges": [{ "text": "React" }, { "text": "Fury" }]
+			},
+			{
+				"name": "Clips",
+				"link": "www.google.com",
+				"description": {
+					"text": "CLips is a tiktok"
+				},
+				"badges": [{ "text": "React" }, { "text": "Fury" }]
+			},
+			{
+				"name": "Clips",
+				"link": "www.google.com",
+				"description": {
+					"text": "CLips is a tiktok"
+				},
+				"badges": [{ "text": "React" }, { "text": "Fury" }]
+			}
 		]
 	},
 	"languagues": {
 		"title": "Languagues",
-		"list": [
-			{ "text": "English", "level": "B1" },
-			{ "text": "Spanish", "level": "Native" }
+		"badges": [{ "text": "English: B2" }, { "text": "Spanish: Native" }]
+	},
+	"keyboardManager": {
+		"text": "Press {command} to open the command menu.",
+		"commands": [
+			{
+				"id": "print",
+				"title": "Print",
+				"icon": "printIcon",
+				"hotkey": "{keyCommand}+P",
+				"section": "Actions",
+				"handler": "print"
+			},
+			{
+				"id": "linkedin",
+				"title": "Visit Linked In",
+				"icon": "linkedinIcon",
+				"hotkey": "{keyCommand}+L",
+				"section": "Social",
+				"handler": "redirect",
+				"target": "_blank",
+				"link": "https://www.linkedin.com/in/marvin-cely/"
+			},
+			{
+				"id": "github",
+				"title": "Visit Github",
+				"icon": "githubIcon",
+				"hotkey": "{keyCommand}+G",
+				"section": "Social",
+				"handler": "redirect",
+				"target": "_blank",
+				"link": "https://github.com/DanteCely"
+			},
+			{
+				"id": "language",
+				"title": "Cambiar a Inglés",
+				"icon": "languageIcon",
+				"hotkey": "{keyCommand}+E",
+				"section": "Language",
+				"handler": "redirect",
+				"link": "/en/"
+			}
 		]
 	}
 }

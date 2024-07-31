@@ -1,0 +1,40 @@
+---
+import About from '@components/section/About.astro';
+import Education from '@components/section/Education.astro';
+import Work from '@components/section/Work.astro';
+import Hero from '@components/Hero.astro';
+import KeyboardManager from '@components/KeyboardManager.astro';
+import Layout from '@layouts/Layout.astro';
+import Projects from '@components/section/Projects.astro';
+import Skills from '@components/section/Skills.astro';
+import Languages from '@components/section/Languages.astro';
+import cvLang from '@utils/cv-lang';
+
+interface Props {
+	lang: string;
+}
+
+const { lang = 'en' } = Astro.props;
+
+const resume = await cvLang(lang);
+const { hero, about, work, education, skills, languagues, projects, keyboardManager } = resume;
+---
+
+<main>
+	<Hero {...hero} />
+	<About {...about} />
+	<Skills {...skills} />
+	<Work {...work} />
+	<Education {...education} />
+	<Projects {...projects} />
+	<Languages {...languagues} />
+</main>
+<KeyboardManager {...keyboardManager} />
+
+<style>
+	main {
+		padding: 4rem;
+		margin: auto;
+		max-width: fit-content;
+	}
+</style>
