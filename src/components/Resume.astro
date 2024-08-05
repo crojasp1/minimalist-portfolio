@@ -12,7 +12,7 @@ interface Props {
 }
 
 const { resume = {} } = Astro.props;
-const { hero, about, work, education, skills, languagues, projects, keyboardManager } = resume;
+const { hero, about, work, education, skills, projects, keyboardManager } = resume;
 ---
 
 <main>
@@ -31,12 +31,5 @@ const { hero, about, work, education, skills, languagues, projects, keyboardMana
 		padding: 4rem;
 		margin: auto;
 		max-width: fit-content;
-	}
-
-	@media print {
-		.pagebreak {
-			clear: both;
-			page-break-after: always;
-		}
 	}
 </style>

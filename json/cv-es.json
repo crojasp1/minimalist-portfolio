@@ -170,13 +170,13 @@
 		]
 	},
 	"projects": {
-		"title": "Projects",
+		"title": "Proyectos",
 		"list": [
 			{
 				"name": "Mercado Libre Clips",
 				"link": "https://vendedores.mercadolibre.com.mx/nota/sube-videos-de-tus-productos-para-llegar-a-mas-personas",
 				"description": {
-					"text": "Similar experience to social networks where Mercado Libre sellers can create short moderated videos to enhance the buyers' experience."
+					"text": "Experiencia similar a las redes sociales donde los vendedores de Mercado Libre pueden crear videos cortos moderados para mejorar la experiencia de los compradores."
 				},
 				"badges": [
 					{ "text": "React" },
@@ -190,7 +190,7 @@
 				"name": "Mercado Livre Live",
 				"link": "https://www.linkedin.com/pulse/mercado-livre-live-commerce-bruno-meira/",
 				"description": {
-					"text": "Mercado Libre sellers offered a closer experience of their products to their buyers through video streaming and chat."
+					"text": "Los vendedores de Mercado Libre ofrecían una experiencia más cercana de sus productos a sus compradores a través de la transmisiones en vivo por vídeo y el chat."
 				},
 				"badges": [{ "text": "React" }, { "text": "NodeJS" }, { "text": "AWS" }, { "text": "OBS Studio" }]
 			},
@@ -198,37 +198,33 @@
 				"name": "Upgrade Fare Type",
 				"link": "https://www.southwest.com/air/upgrade/",
 				"description": {
-					"text": "Passengers can use the product to upgrade their airline tickets and obtain better benefits."
+					"text": "Los pasajeros pueden utilizar el producto subir de beneficios en sus boletos de avión."
 				},
 				"badges": [{ "text": "React" }, { "text": "A11Y Level AA" }, { "text": "Scrum Methology" }]
 			},
 			{
 				"name": "Banco Caja Social",
 				"description": {
-					"text": "Virtual banking portal that allows users to access their registered accounts."
+					"text": "Portal de banca virtual que permite a los usuarios acceder a sus cuentas registradas."
 				},
 				"badges": [{ "text": "Angular JS" }]
 			}
 		]
 	},
-	"languagues": {
-		"title": "Languagues",
-		"badges": [{ "text": "English: B2" }, { "text": "Spanish: Native" }]
-	},
 	"keyboardManager": {
-		"text": "Press {command} to open the command menu.",
+		"text": "Presiona {command} para abrir el menú de comandos.",
 		"commands": [
 			{
 				"id": "print",
-				"title": "Print",
+				"title": "Imprimir",
 				"icon": "printIcon",
 				"hotkey": "{keyCommand}+P",
-				"section": "Actions",
+				"section": "Acciones",
 				"handler": "print"
 			},
 			{
 				"id": "linkedin",
-				"title": "Visit Linked In",
+				"title": "Visitar Linked In",
 				"icon": "linkedinIcon",
 				"hotkey": "{keyCommand}+L",
 				"section": "Social",
@@ -238,7 +234,7 @@
 			},
 			{
 				"id": "github",
-				"title": "Visit Github",
+				"title": "Visitar Github",
 				"icon": "githubIcon",
 				"hotkey": "{keyCommand}+G",
 				"section": "Social",
@@ -248,12 +244,12 @@
 			},
 			{
 				"id": "language",
-				"title": "Change to Spanish",
+				"title": "Cambiar a Inglés",
 				"icon": "languageIcon",
-				"hotkey": "{keyCommand}+S",
-				"section": "Language",
+				"hotkey": "{keyCommand}+E",
+				"section": "Lenguaje",
 				"handler": "redirect",
-				"link": "/es/"
+				"link": "/en/"
 			}
 		]
 	}
