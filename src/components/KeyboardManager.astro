@@ -5,6 +5,7 @@ type Command = {
 	section: string;
 	id: string;
 	icon: string;
+	handler: string;
 };
 
 interface Props {
@@ -29,6 +30,15 @@ const [left, right] = text.split('{command}');
 	import { getKeyCommand } from '@utils/detect-os';
 	import * as stringIcons from '../icons/string-icons';
 
+	type Command = {
+		title: string;
+		hotkey: string;
+		section: string;
+		id: string;
+		icon: string;
+		handler: string;
+	};
+
 	class AstroKeyBoard extends HTMLElement {
 		constructor() {
 			super();
@@ -49,7 +59,7 @@ const [left, right] = text.split('{command}');
 
 				firstKeyEl.textContent = keyCommand;
 
-				ninja.data = commands.map((command) => {
+				ninja.data = commands.map((command: Command) => {
 					const { icon, hotkey, handler } = command;
 					return {
 						...command,

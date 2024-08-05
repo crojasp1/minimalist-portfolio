@@ -18,7 +18,7 @@ const { contacts } = Astro.props;
 
 <footer>
 	{
-		contacts.map((contact, index, { length }) => {
+		contacts.map((contact) => {
 			const { icon, print, link, title } = contact;
 			const Icon = icons(icon);
 
