@@ -1,7 +1,8 @@
 {
 	"hero": {
-		"title": "Marvin Daniel Cely Báez Español",
-		"text": "Frontend Engineer with more than 5 years of experience collaborating and creating quality products.",
+		"title": "Marvin Daniel Cely Báez",
+		"role": "Software Engineer  | Frontend Instructor | Systems Engineer",
+		"text": "Con +5 años de experiencia colaborando y creando productos de calidad.",
 		"location": {
 			"text": "Bogotá, Colombia",
 			"link": "https://www.google.com/maps/place/Bogot%C3%A1"
@@ -10,22 +11,22 @@
 			{
 				"icon": "linkedin",
 				"link": "https://www.linkedin.com/in/marvin-cely/",
-				"title": "Go to my Linked In",
+				"title": "Ir a mi Linked In",
 				"print": "https://www.linkedin.com/in/marvin-cely/"
 			},
 			{
 				"icon": "mail",
 				"link": "mailto:mardancely@gmail.com",
-				"title": "Contact me at mardancely@gmail.com",
+				"title": "Ponte en contacto conmigo en mardancely@gmail.com",
 				"print": "mardancely@gmail.com"
 			},
 			{
 				"icon": "whatsapp",
 				"link": "https://wa.link/kx7n00",
-				"title": "Contact me at WhatsApp +57 (305)701-3051",
+				"title": "Ponte en contacto conmigo en WhatsApp +57 (305)701-3051",
 				"print": "+57 (305)701-3051"
 			},
-			{ "icon": "github", "link": "https://github.com/DanteCely", "title": "Visit my Github" }
+			{ "icon": "github", "link": "https://github.com/DanteCely", "title": "Visita mi Github" }
 		],
 		"image": {
 			"src": "/me.webp",
@@ -33,41 +34,103 @@
 		}
 	},
 	"about": {
-		"title": "About",
-		"text": "I can my technical skills to create impactful digital experiences. With a solid background as a Systems Engineer from Pontificia Universidad Javeriana and currently pursuing a Master's in Artificial Intelligence, I currently work as a Software Developer and Front-end Instructor. I enjoy tackling challenges from conceptualization to implementation and maintenance, ensuring complete workflows and robust architecture. I am an expert in task analysis, deployment support, and effective collaboration with key stakeholders in UX, product, and other areas."
+		"title": "Sobre mí",
+		"texts": [
+			"Transformando ideas en experiencias digitales impactantes usando JavaScript, Node.js, React, Angular, CSS (SASS) y más. Soy hábil en la creación de aplicaciones web atractivas y accesibles, colaboro eficazmente en equipos ágiles (Scrum, Kanban, XP) para abordar proyectos de principio a fin, desde la conceptualización hasta el despliegue y el mantenimiento, garantizando soluciones robustas y escalables.",
+			"A lo largo de mi carrera, he conseguido logros notables, como el lanzamiento de la función Clips en Mercado Libre en Brasil, Argentina, Colombia, México y Chile. Participé en la implementación de la función Upgrade Fare Type para Southwest Airlines, mejorando su proceso de actualización de billetes. Además, aporté soluciones innovadoras para la elaboración de informes y gráficos fiscales en Ernst & Young",
+			"Mi compromiso con la excelencia técnica y la colaboración me impulsa a buscar continuamente nuevos retos. Me apasiona hacer crecer mis habilidades y tener un impacto significativo a través de mi trabajo."
+		]
 	},
 	"work": {
-		"title": "Career History",
+		"title": "Trayectoria profesional",
 		"experiences": [
 			{
 				"organization": {
 					"name": "Mercado Libre",
-					"badges": [{ "text": "Hybrid", "tooltip": "Jornada completa" }],
-					"duration": { "from": "May 2023", "to": "June 2024" }
+					"badges": [{ "text": "Híbrido", "tooltip": "Tiempo completo" }],
+					"duration": { "from": "Noviembre 2021", "to": "May 2024" }
 				},
 				"role": "Sr Software Engineer",
 				"description": {
 					"list": [
-						"Lista de responsabilidades 1",
-						"Lista de responsabilidades 2",
-						"Lista de responsabilidades 3",
-						"Lista de responsabilidades 4"
+						"Contribuí al exitoso lanzamiento de Mercado Libre Clips, incrementando las ventas en Argentina, Brasil, México, Chile y Colombia",
+						"Supported the growth of Clips and my team by developing and implementing new features such as Coupons, Follow Seller, and Clips in Gallery, resulting in greater platform adoption.",
+						"Realicé el análisis e implementación de la refactorización de Clips, utilizando patrones de diseño como Factory, Strategy y Singleton con hooks de React",
+						"Colaboré cercanamente con los equipos de UX, producto y desarrollo para crear funciones sólidas centradas en las métricas clave de cada trimestre",
+						"Apoyé en el proyecto Mercado Libre Live Commerce optimizando el chat y mejorando el acceso responsivo al hub de streaming"
 					]
 				}
 			},
 			{
 				"organization": {
 					"name": "Nodo EAFIT",
-					"badges": [{ "text": "Remote", "tooltip": "Jornada parcial" }],
-					"duration": { "from": "May 2023", "to": "June 2024" }
+					"badges": [{ "text": "Remoto", "tooltip": "Partial-time" }],
+					"duration": { "from": "Octubre 2022", "to": "present" }
 				},
-				"role": "Instructor Frontend",
+				"role": "Frontend Instructor",
 				"description": {
 					"list": [
-						"Lista de responsabilidades 1",
-						"Lista de responsabilidades 2",
-						"Lista de responsabilidades 3",
-						"Lista de responsabilidades 4"
+						"Impartió tres módulos de cursos de front-end, centrándose en la transferencia de conocimientos de más de 30 aspirantes a desarrolladores de software por curso",
+						"Diseñé retos de programación orientados a HTML (Semantic & A11Y), CSS (SASS), JavaScript, Node.js, y React, guiando a los alumnos a completar con éxito el proyecto final del módulo."
+					]
+				}
+			},
+			{
+				"organization": {
+					"name": "Globant",
+					"badges": [{ "text": "Híbrido", "tooltip": "Tiempo completo" }],
+					"duration": { "from": "June 2019", "to": "Octubre 2021" }
+				},
+				"role": "Web UI Developer",
+				"initiatives": [
+					{
+						"name": "Erns & Young",
+						"duration": { "from": "April 2020", "to": "Octubre 2021" },
+						"description": {
+							"list": [
+								"Analicé, desarrollé & optimicé tabla de flujo de información fiscal, manejador de errores, gráficos de datos con Angular & Typescript",
+								"Realicé, en 3 meses, la refactorización del proyecto Covid Incentives Taxs, centrándome en la componetización de componentes simples a complejos con sprints de una semana utilizando React & Ant Design.",
+								"Realicé la migración de todo el Proyecto de Análisis de Informes de Aumento de Personal de Angular 4 a Angular 10 reestructurando todo el código desde cero, y manteniendo el mismo flujo de la aplicación",
+								"Investigué y creé dashboards Spike (POC) usando Kendo Chart JS en el lado del cliente y obteniendo las consultas usando LINQ y C# en el lado del servidor."
+							]
+						}
+					},
+					{
+						"name": "Southwest Airlines",
+						"duration": { "from": "June 2019", "to": "March 2020" },
+						"description": {
+							"list": [
+								"Realizé la entrega completa del proyecto Upgrade Ticket's Airlines utilizando React (Clases), SASS con BEM y metodología Scrum",
+								"Analicé y mejoré la accesibilidad (A11Y) de la aplicación, apoyandome con la evaluación del comité de accesibilidad",
+								"Colaboré activamente en la revisión del código, sesiones de tres amigos y planificación orientada al póquer con el cliente para entregar una aplicación de alta calidad."
+							]
+						}
+					}
+				]
+			},
+			{
+				"organization": {
+					"name": "IBM",
+					"badges": [{ "text": "Presencial", "tooltip": "Tiempo completo" }],
+					"duration": { "from": "Noviembre 2018", "to": "Febrero 2019" }
+				},
+				"role": "Started Application Developer",
+				"description": {
+					"text": [
+						"Desarrollé requerimientos funcionales del Banco Caja Social como página de login y perfil utilizando Angular JS y framework Backbase"
+					]
+				}
+			},
+			{
+				"organization": {
+					"name": "Netlogistik",
+					"badges": [{ "text": "Presencial", "tooltip": "Tiempo completo" }],
+					"duration": { "from": "March 2017", "to": "Octubre 2017" }
+				},
+				"role": "Software Engineer",
+				"description": {
+					"text": [
+						"Desarrollé un portafolio de indicadores clave de rendimiento (KPI) personalizados que genera informes a tiempo real, según el cliente en un sistema de gestión de almacenes (WMS) utilizando Power BI"
 					]
 				}
 			}
@@ -81,9 +144,12 @@
 					"name": "Pontificia Universidad Javeriana"
 				},
 				"initiatives": [
-					{ "name": "Ingeniero de software", "duration": { "from": "May 2023", "to": "June 2024" } },
-					{ "name": "Maestría de INgeniería de Sistemas", "duration": { "from": "May 2023", "to": "present" } },
-					{ "name": "Maestría de IA", "duration": { "from": "May 2023", "to": "present" } }
+					{ "name": "MSc, Maestría en Inteligencia Artificial", "duration": { "from": "Enero 2021", "to": "present" } },
+					{
+						"name": "MSc, Maestría en Ingeniería de Sistemas y Computación",
+						"duration": { "from": "Enero 2012", "to": "present" }
+					},
+					{ "name": "SE, Ingeniería de Sistemas", "duration": { "from": "Enero 2019", "to": "Septiembre 2018" } }
 				]
 			}
 		]
@@ -91,51 +157,57 @@
 	"skills": {
 		"title": "Skills",
 		"badges": [
-			{ "text": "Javascript", "tooltip": "5 years", "icon": "javascript" },
-			{ "text": "React", "tooltip": "5 years", "icon": "react" },
-			{ "text": "NodeJS", "tooltip": "5 years", "icon": "nodejs" },
-			{ "text": "Typescript", "tooltip": "5 years", "icon": "typescript" },
-			{ "text": "SASS", "tooltip": "5 years", "icon": "sass" },
-			{ "text": "CSS", "tooltip": "5 years", "icon": "css" },
-			{ "text": "HTML", "tooltip": "5 years", "icon": "html" },
-			{ "text": "Git", "tooltip": "5 years", "icon": "git" },
-			{ "text": "Angular", "tooltip": "5 years", "icon": "angular" }
+			{ "text": "Javascript", "tooltip": "+5 años", "icon": "javascript" },
+			{ "text": "React", "tooltip": "+4 años", "icon": "react" },
+			{ "text": "NodeJS", "tooltip": "+2 años", "icon": "nodejs" },
+			{ "text": "Typescript", "tooltip": "+2 años", "icon": "typescript" },
+			{ "text": "SASS", "tooltip": "+5 años", "icon": "sass" },
+			{ "text": "CSS", "tooltip": "+5 años", "icon": "css" },
+			{ "text": "HTML", "tooltip": "+5 años", "icon": "html" },
+			{ "text": "Git", "tooltip": "+5 años", "icon": "git" },
+			{ "text": "Angular", "tooltip": "+1 años", "icon": "angular" },
+			{ "text": "Inglés ", "tooltip": "intermedio", "icon": "language" }
 		]
 	},
 	"projects": {
 		"title": "Projects",
 		"list": [
 			{
-				"name": "Clips",
-				"link": "www.google.com",
+				"name": "Mercado Libre Clips",
+				"link": "https://vendedores.mercadolibre.com.mx/nota/sube-videos-de-tus-productos-para-llegar-a-mas-personas",
 				"description": {
-					"text": "CLips is a tiktok"
+					"text": "Similar experience to social networks where Mercado Libre sellers can create short moderated videos to enhance the buyers' experience."
 				},
-				"badges": [{ "text": "React" }, { "text": "Fury" }]
+				"badges": [
+					{ "text": "React" },
+					{ "text": "NodeJS" },
+					{ "text": "Fury" },
+					{ "text": "Datadog" },
+					{ "text": "New Relic" }
+				]
 			},
 			{
-				"name": "Clips",
-				"link": "www.google.com",
+				"name": "Mercado Livre Live",
+				"link": "https://www.linkedin.com/pulse/mercado-livre-live-commerce-bruno-meira/",
 				"description": {
-					"text": "Historia interactiva con retos de programación para viajar a Marte"
+					"text": "Mercado Libre sellers offered a closer experience of their products to their buyers through video streaming and chat."
 				},
-				"badges": [{ "text": "React" }, { "text": "Fury" }]
+				"badges": [{ "text": "React" }, { "text": "NodeJS" }, { "text": "AWS" }, { "text": "OBS Studio" }]
 			},
 			{
-				"name": "Clips",
-				"link": "www.google.com",
+				"name": "Upgrade Fare Type",
+				"link": "https://www.southwest.com/air/upgrade/",
 				"description": {
-					"text": "CLips is a tiktok"
+					"text": "Passengers can use the product to upgrade their airline tickets and obtain better benefits."
 				},
-				"badges": [{ "text": "React" }, { "text": "Fury" }]
+				"badges": [{ "text": "React" }, { "text": "A11Y Level AA" }, { "text": "Scrum Methology" }]
 			},
 			{
-				"name": "Clips",
-				"link": "www.google.com",
+				"name": "Banco Caja Social",
 				"description": {
-					"text": "CLips is a tiktok"
+					"text": "Virtual banking portal that allows users to access their registered accounts."
 				},
-				"badges": [{ "text": "React" }, { "text": "Fury" }]
+				"badges": [{ "text": "Angular JS" }]
 			}
 		]
 	},
@@ -176,12 +248,12 @@
 			},
 			{
 				"id": "language",
-				"title": "Cambiar a Inglés",
+				"title": "Change to Spanish",
 				"icon": "languageIcon",
-				"hotkey": "{keyCommand}+E",
+				"hotkey": "{keyCommand}+S",
 				"section": "Language",
 				"handler": "redirect",
-				"link": "/en/"
+				"link": "/es/"
 			}
 		]
 	}

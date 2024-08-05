@@ -4,19 +4,14 @@ import Education from '@components/section/Education.astro';
 import Work from '@components/section/Work.astro';
 import Hero from '@components/Hero.astro';
 import KeyboardManager from '@components/KeyboardManager.astro';
-import Layout from '@layouts/Layout.astro';
 import Projects from '@components/section/Projects.astro';
 import Skills from '@components/section/Skills.astro';
-import Languages from '@components/section/Languages.astro';
-import cvLang from '@utils/cv-lang';
 
 interface Props {
-	lang: string;
+	resume: any;
 }
 
-const { lang = 'en' } = Astro.props;
-
-const resume = await cvLang(lang);
+const { resume = {} } = Astro.props;
 const { hero, about, work, education, skills, languagues, projects, keyboardManager } = resume;
 ---
 
@@ -24,10 +19,10 @@ const { hero, about, work, education, skills, languagues, projects, keyboardMana
 	<Hero {...hero} />
 	<About {...about} />
 	<Skills {...skills} />
+	<div class="pagebreak"></div>
 	<Work {...work} />
 	<Education {...education} />
 	<Projects {...projects} />
-	<Languages {...languagues} />
 </main>
 <KeyboardManager {...keyboardManager} />
 
@@ -36,5 +31,12 @@ const { hero, about, work, education, skills, languagues, projects, keyboardMana
 		padding: 4rem;
 		margin: auto;
 		max-width: fit-content;
+	}
+
+	@media print {
+		.pagebreak {
+			clear: both;
+			page-break-after: always;
+		}
 	}
 </style>

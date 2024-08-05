@@ -3,7 +3,7 @@ import Link from '@components/Link.astro';
 import Contacts from '@components/Contacts.astro';
 import icons from '@icons/index';
 
-const { title, text, location, contacts, image } = Astro.props;
+const { title, role, text, location, contacts, image } = Astro.props;
 
 const World = icons('world');
 ---
@@ -11,7 +11,11 @@ const World = icons('world');
 <article>
 	<section>
 		<h1>{title}</h1>
-		<p>{text}</p>
+		<p>
+			<b>{role}</b>
+			<br />
+			{text}
+		</p>
 		<Link {...location}><World />{location.text}</Link>
 		<Contacts contacts={contacts} />
 	</section>
@@ -60,7 +64,7 @@ const World = icons('world');
 		p {
 			font-size: 1rem;
 			font-weight: 500;
-			text-wrap: balance;
+			text-wrap: inherit;
 		}
 	}
 

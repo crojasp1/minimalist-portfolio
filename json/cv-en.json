@@ -1,7 +1,8 @@
 {
 	"hero": {
 		"title": "Marvin Daniel Cely Báez",
-		"text": "Frontend Engineer with more than 5 years of experience collaborating and creating quality products.",
+		"role": "Software Engineer  | Frontend Instructor | Systems Engineer",
+		"text": "With +5 years of experience collaborating and creating quality products.",
 		"location": {
 			"text": "Bogotá, Colombia",
 			"link": "https://www.google.com/maps/place/Bogot%C3%A1"
@@ -34,7 +35,11 @@
 	},
 	"about": {
 		"title": "About",
-		"text": "Systems Engineer, frontend instructor and software developer transforming ideas into impactful digital experiences with JavaScript, NodeJS, React, Angular, CSS (SASS), among others; to create attractive and accessible web applications. I collaborate in agile teams (Scrum, Kanban, XP) to tackle end-to-end projects, from conceptualization to deployment and maintenance, ensuring robust and scalable solutions.\n My track record includes notable achievements such as launching Clips in Mercado Libre in Brazil, Argentina, Colombia, Mexico and Chile; implementing Upgrade Fare Type, to upgrade Southwest Airlines tickets; and providing innovative solutions supporting tax reporting and charting at Ernst & Young. My commitment to technical excellence and collaboration drives me to seek new challenges where I can continue to grow and make a significant impact."
+		"texts": [
+			"Transforming ideas into impactful digital experiences using JavaScript, Node.js, React, Angular, CSS (SASS), and more. Skilled in creating attractive and accessible web applications, I collaborate effectively in agile teams (Scrum, Kanban, XP) to tackle end-to-end projects, from conceptualization to deployment and maintenance, ensuring robust and scalable solutions.",
+			"Throughout my career, I have achieved notable accomplishments such as launching the Clips feature in Mercado Libre across Brazil, Argentina, Colombia, Mexico, and Chile. I participated in implementing the Upgrade Fare Type feature for Southwest Airlines, enhancing their ticket upgrading process. Additionally, I provided innovative solutions for tax reporting and charting at Ernst & Young.",
+			"My commitment to technical excellence and collaboration drives me to seek new challenges continuously. I am passionate about growing my skills and making a significant impact through my work."
+		]
 	},
 	"work": {
 		"title": "Career History",
@@ -160,7 +165,8 @@
 			{ "text": "CSS", "tooltip": "+5 years", "icon": "css" },
 			{ "text": "HTML", "tooltip": "+5 years", "icon": "html" },
 			{ "text": "Git", "tooltip": "+5 years", "icon": "git" },
-			{ "text": "Angular", "tooltip": "+1 years", "icon": "angular" }
+			{ "text": "Angular", "tooltip": "+1 years", "icon": "angular" },
+			{ "text": "English ", "tooltip": "intermediate", "icon": "language" }
 		]
 	},
 	"projects": {
@@ -184,7 +190,7 @@
 				"name": "Mercado Livre Live",
 				"link": "https://www.linkedin.com/pulse/mercado-livre-live-commerce-bruno-meira/",
 				"description": {
-					"text": "Historia interactiva con retos de programación para viajar a Marte"
+					"text": "Mercado Libre sellers offered a closer experience of their products to their buyers through video streaming and chat."
 				},
 				"badges": [{ "text": "React" }, { "text": "NodeJS" }, { "text": "AWS" }, { "text": "OBS Studio" }]
 			},
@@ -192,14 +198,14 @@
 				"name": "Upgrade Fare Type",
 				"link": "https://www.southwest.com/air/upgrade/",
 				"description": {
-					"text": "CLips is a tiktok"
+					"text": "Passengers can use the product to upgrade their airline tickets and obtain better benefits."
 				},
 				"badges": [{ "text": "React" }, { "text": "A11Y Level AA" }, { "text": "Scrum Methology" }]
 			},
 			{
 				"name": "Banco Caja Social",
 				"description": {
-					"text": "CLips is a tiktok"
+					"text": "Virtual banking portal that allows users to access their registered accounts."
 				},
 				"badges": [{ "text": "Angular JS" }]
 			}

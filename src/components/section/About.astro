@@ -1,9 +1,23 @@
 ---
 import Section from '@components/Section.astro';
 
-const { title, text } = Astro.props;
+interface Props {
+	title: string;
+	texts: string[];
+}
+
+const { title, texts = [] } = Astro.props;
 ---
 
 <Section title={title}>
-	<p>{text}</p>
+	<article>
+		{texts.map((text) => <p>{text}</p>)}
+	</article>
 </Section>
+<style>
+	article {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+</style>

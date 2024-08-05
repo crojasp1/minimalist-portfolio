@@ -1,11 +1,14 @@
 ---
 import Layout from '@layouts/Layout.astro';
 import Resume from '@components/Resume.astro';
+import cvLang from '@utils/cv-lang';
 
 const lang = 'en';
-const title = 'Marvin Daniel Cely Báez | Software Engineer';
+const resume = await cvLang(lang);
+
+const { hero } = resume;
 ---
 
-<Layout title={title} lang={lang}>
-	<Resume lang={lang} />
+<Layout title={`${hero.title} - ${hero.role}`} lang={lang}>
+	<Resume resume={resume} />
 </Layout>
