@@ -1,7 +1,7 @@
 {
 	"hero": {
 		"title": "Marvin Daniel Cely Báez",
-		"role": "Software Engineer  | Frontend Instructor | Systems Engineer",
+		"role": "Sr Software Engineer  | Frontend Instructor | Systems Engineer",
 		"text": "Con +5 años de experiencia colaborando y creando productos de calidad.",
 		"location": {
 			"text": "Bogotá, Colombia",
@@ -22,7 +22,7 @@
 			},
 			{
 				"icon": "whatsapp",
-				"link": "https://wa.link/kx7n00",
+				"link": "https://wa.link/phtmr6",
 				"title": "Ponte en contacto conmigo en WhatsApp +57 (305)701-3051",
 				"print": "+57 (305)701-3051"
 			},
@@ -54,7 +54,7 @@
 				"description": {
 					"list": [
 						"Contribuí al exitoso lanzamiento de Mercado Libre Clips, incrementando las ventas en Argentina, Brasil, México, Chile y Colombia",
-						"Supported the growth of Clips and my team by developing and implementing new features such as Coupons, Follow Seller, and Clips in Gallery, resulting in greater platform adoption.",
+						"Apoyé el crecimiento de Clips y con mi equipo desarrollando e implementando nuevas funciones como Cupones en Clips, Seguir al vendedor y Clips en la Galería, lo que resultó en una mayor adopción de la plataforma.",
 						"Realicé el análisis e implementación de la refactorización de Clips, utilizando patrones de diseño como Factory, Strategy y Singleton con hooks de React",
 						"Colaboré cercanamente con los equipos de UX, producto y desarrollo para crear funciones sólidas centradas en las métricas clave de cada trimestre",
 						"Apoyé en el proyecto Mercado Libre Live Commerce optimizando el chat y mejorando el acceso responsivo al hub de streaming"
@@ -70,7 +70,7 @@
 				"role": "Frontend Instructor",
 				"description": {
 					"list": [
-						"Impartió tres módulos de cursos de front-end, centrándose en la transferencia de conocimientos de más de 30 aspirantes a desarrolladores de software por curso",
+						"Impartí tres módulos de cursos de front-end, centrándose en la transferencia de conocimientos de más de 30 aspirantes a desarrolladores de software por curso",
 						"Diseñé retos de programación orientados a HTML (Semantic & A11Y), CSS (SASS), JavaScript, Node.js, y React, guiando a los alumnos a completar con éxito el proyecto final del módulo."
 					]
 				}
@@ -119,7 +119,8 @@
 					"text": [
 						"Desarrollé requerimientos funcionales del Banco Caja Social como página de login y perfil utilizando Angular JS y framework Backbase"
 					]
-				}
+				},
+				"printPageBreak": true
 			},
 			{
 				"organization": {
@@ -155,7 +156,7 @@
 		]
 	},
 	"skills": {
-		"title": "Skills",
+		"title": "Habilidades",
 		"badges": [
 			{ "text": "Javascript", "tooltip": "+5 años", "icon": "javascript" },
 			{ "text": "React", "tooltip": "+4 años", "icon": "react" },

@@ -19,12 +19,14 @@ export interface Props {
 	role?: string;
 	description?: DescriptionProps;
 	initiatives?: InitiativeProps[];
+	printPageBreak: boolean;
 }
 
-const { organization, role, description = {}, initiatives = [] } = Astro.props;
+const { organization, role, description = {}, initiatives = [], printPageBreak } = Astro.props;
 const { name, badges, duration } = organization;
 ---
 
+{printPageBreak && <div class="pagebreak" />}
 <header>
 	<section>
 		<h3>{name}</h3>
