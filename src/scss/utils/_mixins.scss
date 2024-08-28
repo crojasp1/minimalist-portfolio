@@ -3,10 +3,6 @@
 		display: none !important;
 	}
 
-	:global(.no-print) {
-		display: block !important;
-	}
-
 	@media print {
 		:global(.print) {
 			display: block !important;

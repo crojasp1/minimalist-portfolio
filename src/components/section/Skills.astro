@@ -11,4 +11,6 @@ interface Props {
 const { title, badges } = Astro.props;
 ---
 
-<Section title={title}> {!!badges?.length && <Badges badges={badges} />}</Section>
+<Section title={title}>
+	{!!badges?.length && <Badges badges={badges} />}
+</Section>

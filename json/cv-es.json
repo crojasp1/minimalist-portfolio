@@ -167,7 +167,7 @@
 			{ "text": "HTML", "tooltip": "+5 años", "icon": "html" },
 			{ "text": "Git", "tooltip": "+5 años", "icon": "git" },
 			{ "text": "Angular", "tooltip": "+1 años", "icon": "angular" },
-			{ "text": "Inglés ", "tooltip": "intermedio", "icon": "language" }
+			{ "text": "Inglés", "tooltip": "intermedio alto", "icon": "language" }
 		]
 	},
 	"projects": {

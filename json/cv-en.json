@@ -119,7 +119,8 @@
 					"text": [
 						"Developed functional requirements of the Banco Caja Social such as login and profile page using Angular JS and Backbase framework."
 					]
-				}
+				},
+				"printPageBreak": true
 			},
 			{
 				"organization": {
@@ -166,7 +167,7 @@
 			{ "text": "HTML", "tooltip": "+5 years", "icon": "html" },
 			{ "text": "Git", "tooltip": "+5 years", "icon": "git" },
 			{ "text": "Angular", "tooltip": "+1 years", "icon": "angular" },
-			{ "text": "English ", "tooltip": "intermediate", "icon": "language" }
+			{ "text": "English", "tooltip": "intermediate upper", "icon": "language" }
 		]
 	},
 	"projects": {
@@ -210,10 +211,6 @@
 				"badges": [{ "text": "Angular JS" }]
 			}
 		]
-	},
-	"languagues": {
-		"title": "Languagues",
-		"badges": [{ "text": "English: B2" }, { "text": "Spanish: Native" }]
 	},
 	"keyboardManager": {
 		"text": "Press {command} to open the command menu.",
