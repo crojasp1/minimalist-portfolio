@@ -1,8 +1,8 @@
 {
 	"hero": {
-		"title": "Marvin Daniel Cely Báez",
-		"role": "Sr Software Engineer  | Frontend Instructor | Systems Engineer",
-		"text": "With +5 years of experience collaborating and creating quality products.",
+		"title": "Camilo Andres Rojas Prieto",
+		"role": "Jr Software Developer  | Frontend Developer | Mechanical Engineer",
+		"text": "With 3 years of experience studying and creating quality products.",
 		"location": {
 			"text": "Bogotá, Colombia",
 			"link": "https://www.google.com/maps/place/Bogot%C3%A1"
@@ -10,35 +10,35 @@
 		"contacts": [
 			{
 				"icon": "linkedin",
-				"link": "https://www.linkedin.com/in/marvin-cely/",
+				"link": "https://www.linkedin.com/in/camilo-andres-rojas-prieto-software-developer/",
 				"title": "Go to my Linked In",
-				"print": "https://www.linkedin.com/in/marvin-cely/"
+				"print": "https://www.linkedin.com/in/camilo-andres-rojas-prieto-software-developer/"
 			},
 			{
 				"icon": "mail",
-				"link": "mailto:mardancely@gmail.com",
-				"title": "Contact me at mardancely@gmail.com",
-				"print": "mardancely@gmail.com"
+				"link": "mailto:camilorojasprieto@gmail.com",
+				"title": "Contact me at camilorojasprieto@gmail.com",
+				"print": "camilorojasprieto@gmail.com"
 			},
 			{
 				"icon": "whatsapp",
-				"link": "https://wa.link/a6tmi4",
-				"title": "Contact me at WhatsApp +57 (305)701-3051",
-				"print": "+57 (305)701-3051"
+				"link": "https://wa.link/4wuxke",
+				"title": "Contact me at WhatsApp +57 (321)221-4428",
+				"print": "+57 (321)221-4428"
 			},
-			{ "icon": "github", "link": "https://github.com/DanteCely", "title": "Visit my Github" }
+			{ "icon": "github", "link": "https://github.com/crojasp1", "title": "Visit my Github" }
 		],
 		"image": {
 			"src": "/me.webp",
-			"alt": "Marvin's Profile Image"
+			"alt": "Camilo's Profile Image"
 		}
 	},
 	"about": {
 		"title": "About",
 		"texts": [
-			"Transforming ideas into impactful digital experiences using JavaScript, Node.js, React, Angular, CSS (SASS), and more. Skilled in creating attractive and accessible web applications, I collaborate effectively in agile teams (Scrum, Kanban, XP) to tackle end-to-end projects, from conceptualization to deployment and maintenance, ensuring robust and scalable solutions.",
-			"Throughout my career, I have achieved notable accomplishments such as launching the Clips feature in Mercado Libre across Brazil, Argentina, Colombia, Mexico, and Chile. I participated in implementing the Upgrade Fare Type feature for Southwest Airlines, enhancing their ticket upgrading process. Additionally, I provided innovative solutions for tax reporting and charting at Ernst & Young.",
-			"My commitment to technical excellence and collaboration drives me to seek new challenges continuously. I am passionate about growing my skills and making a significant impact through my work."
+
+			"Transforming ideas into impactful digital experiences using JavaScript, Node.js, React, CSS, and more. I am skilled at creating attractive and accessible web applications, and I collaborate effectively in agile teams (Scrum) to tackle projects from start to finish. I completed four diplomas in Programming Fundamentals with Java and Python, Software Development, Mobile and Web Applications with the Tecnology Goberment Ministery through the Engineering Faculty of “Universidad de Antioquia”. Excellent English skills.",
+			"My commitment to technical excellence and collaboration drives me to continually seek new challenges. I am passionate about growing my skills and having a significant impact through my work."
 		]
 	},
 	"work": {
@@ -46,170 +46,97 @@
 		"experiences": [
 			{
 				"organization": {
-					"name": "Mercado Libre",
-					"badges": [{ "text": "Hybrid", "tooltip": "Full-time" }],
-					"duration": { "from": "November 2021", "to": "May 2024" }
+					"name": "Longport - American Airlines",
+					"badges": [{ "text": "on-site"}],
+					"duration": { "from": "March 2019", "to": "August 2021" }
 				},
-				"role": "Sr Software Engineer",
+				"role": "Crew and Qualified Agent",
 				"description": {
 					"list": [
-						"Contributed to the successful launch of Mercado Libre Clips, increasing sales in Argentina, Brazil, Mexico, Chile, and Colombia.",
-						"Supported the growth of Clips and my team by developing and implementing new features such as Coupons, Follow Seller, and Clips in Gallery, resulting in greater platform adoption.",
-						"Contributed to the analysis and implementation of Clips refactoring, utilizing design patterns such as Factory, Strategy, and Singleton with React hooks.",
-						"Collaborated closely with UX, product, and development teams to create robust features focused on key metrics for each quarter.",
-						"Improved the Mercado Libre Live Commerce project by optimizing the chat and enhancing responsive access to the streaming hub."
+						"Successfully communication and translation crew's requirements interacting from English to Spanish.",			
+						"Coordination skiils to transport flight personnel (Captains and crew) with van shuttle personnel to destination without problems.",
+						"I fulfilled all assigned roles in the company after training and started working in multiple positions under preassure."
 					]
 				}
+			}
+			]
 			},
-			{
-				"organization": {
-					"name": "Nodo EAFIT",
-					"badges": [{ "text": "Remote", "tooltip": "Partial-time" }],
-					"duration": { "from": "October 2022", "to": "present" }
-				},
-				"role": "Frontend Instructor",
-				"description": {
-					"list": [
-						"Taught three front-end courses modules, focusing on knowledge transfer of over 30 aspiring software developers per course.",
-						"Designed programming challenges oriented to HTML (Semantic & A11Y), CSS (SASS), JavaScript, Node.js, and React, guiding students to successfully complete the module's final project."
-					]
-				}
-			},
-			{
-				"organization": {
-					"name": "Globant",
-					"badges": [{ "text": "Hybrid", "tooltip": "Full-time" }],
-					"duration": { "from": "June 2019", "to": "October 2021" }
-				},
-				"role": "Web UI Developer",
-				"initiatives": [
+
+			"education": {
+				"title": "Educación",
+				"experiences": [
 					{
-						"name": "Erns & Young",
-						"duration": { "from": "April 2020", "to": "October 2021" },
-						"description": {
-							"list": [
-								"Analized, developed & optimized tax information flow table, error handler, data charts with Angular & Typescript.",
-								"Achieved in 3 months the refactoring of the Covid Incentives Taxs project, focusing on the componetization of simple to complex components with one-week sprints using React & Ant Design.",
-								"Migrated whole Staff Augmentation Report Analysis Project from Angular 4 to Angular 10 reestructuring all the code from zero, and keeping the same flow of the application.",
-								"Researched and created dashboards Spike (POC) using Kendo Chart JS in the client-side and getting the queries using LINQ and C# in the serve-side."
-							]
-						}
-					},
-					{
-						"name": "Southwest Airlines",
-						"duration": { "from": "June 2019", "to": "March 2020" },
-						"description": {
-							"list": [
-								"Acomplished the completely delivery of the Upgrade Ticket’s Airlines project using React (Classes), SASS with BEM and Scrum methodology.",
-								"Analyzed and improved the accessibility (A11Y) issues of the application and assessed by accessibility committee.",
-								"Collaborated actively the code review, tres amigos sessions and planning poker oriented with the client to deliver a high quality application."
-							]
-						}
+						"organization": {
+							"name": "Servicio Nacional de Aprendizaje (SENA)"
+						},
+						"initiatives": [
+							{ "name": "Software analisis and development", "duration": { "from": "Nov 2022", "to": "present" } }
+		
+						]},
+						{
+						"organization": {
+							"name": "Ministerio TIC (Universidad Distrital Francisco José de Caldas)"
+						},
+						"initiatives": [
+							{ "name": "Software development", "duration": { "from": "Jun 2024", "to": "present" } }
+		
+						]},
+						{
+						"organization": {
+							"name": "Ministerio TIC (Universidad de Antioquia)"
+						},
+						"initiatives": [
+							{ "name": "Software development", "duration": { "from": "April 2022", "to": "December 2022" } }
+		
+						]},
+						{
+						"organization": {
+							"name": "Universidad Central"
+						},
+						"initiatives": [
+							{ "name": "Mechanical Engineering", "duration": { "from": "August 2012", "to": "October 2018" } }
+		
+						]
 					}
 				]
 			},
-			{
-				"organization": {
-					"name": "IBM",
-					"badges": [{ "text": "On-site", "tooltip": "Full-time" }],
-					"duration": { "from": "November 2018", "to": "February 2019" }
-				},
-				"role": "Started Application Developer",
-				"description": {
-					"text": [
-						"Developed functional requirements of the Banco Caja Social such as login and profile page using Angular JS and Backbase framework."
-					]
-				},
-				"printPageBreak": true
-			},
-			{
-				"organization": {
-					"name": "Netlogistik",
-					"badges": [{ "text": "On-site", "tooltip": "Full-time" }],
-					"duration": { "from": "March 2017", "to": "October 2017" }
-				},
-				"role": "Software Engineer",
-				"description": {
-					"text": [
-						"Developed a portfolio of customized Key Performance Indicators (KPIs) that generates automatic reports according to the client in a Warehouse Management System (WMS) using Power BI."
-					]
-				}
-			}
-		]
-	},
-	"education": {
-		"title": "Education",
-		"experiences": [
-			{
-				"organization": {
-					"name": "Pontificia Universidad Javeriana"
-				},
-				"initiatives": [
-					{ "name": "MSc, Master of Artificial Intelligence", "duration": { "from": "January 2021", "to": "present" } },
-					{
-						"name": "MSc, Master of Computer and Systems Engineering",
-						"duration": { "from": "January 2012", "to": "present" }
-					},
-					{ "name": "SE, Systems Engineering", "duration": { "from": "January 2019", "to": "September 2018" } }
-				]
-			}
-		]
-	},
+
 	"skills": {
 		"title": "Skills",
 		"badges": [
 			{ "text": "Javascript", "tooltip": "+5 years", "icon": "javascript" },
 			{ "text": "React", "tooltip": "+4 years", "icon": "react" },
 			{ "text": "NodeJS", "tooltip": "+2 years", "icon": "nodejs" },
-			{ "text": "Typescript", "tooltip": "+2 years", "icon": "typescript" },
-			{ "text": "SASS", "tooltip": "+5 years", "icon": "sass" },
 			{ "text": "CSS", "tooltip": "+5 years", "icon": "css" },
 			{ "text": "HTML", "tooltip": "+5 years", "icon": "html" },
 			{ "text": "Git", "tooltip": "+5 years", "icon": "git" },
-			{ "text": "Angular", "tooltip": "+1 years", "icon": "angular" },
 			{ "text": "English", "tooltip": "intermediate upper", "icon": "language" }
 		]
 	},
 	"projects": {
-		"title": "Projects",
+		"title": "Proyectos",
 		"list": [
 			{
-				"name": "Mercado Libre Clips",
-				"link": "https://vendedores.mercadolibre.com.mx/nota/sube-videos-de-tus-productos-para-llegar-a-mas-personas",
+				"name": "Sweet Moment e-commerce",
+				"link": "https://github.com/crojasp1/proyecto-sweet-moment",
 				"description": {
-					"text": "Similar experience to social networks where Mercado Libre sellers can create short moderated videos to enhance the buyers' experience."
+					"text": "E-commerce develop. MERN stack (MONGO, Express). Lazy Loading implemented for footer images."
 				},
 				"badges": [
 					{ "text": "React" },
 					{ "text": "NodeJS" },
-					{ "text": "Fury" },
-					{ "text": "Datadog" },
-					{ "text": "New Relic" }
+					{ "text": "CSS" }
 				]
 			},
 			{
-				"name": "Mercado Livre Live",
-				"link": "https://www.linkedin.com/pulse/mercado-livre-live-commerce-bruno-meira/",
+				"name": "Cherry Panthers",
+				"link": "https://github.com/crojasp1/Cherry-panthers-studio",
 				"description": {
-					"text": "Mercado Libre sellers offered a closer experience of their products to their buyers through video streaming and chat."
+					"text": "Responsive Landing Page done to practice Flex box where all elements can adapt into three screens (320px, 740px, 1080px) with Media Queries implementation."
 				},
-				"badges": [{ "text": "React" }, { "text": "NodeJS" }, { "text": "AWS" }, { "text": "OBS Studio" }]
-			},
-			{
-				"name": "Upgrade Fare Type",
-				"link": "https://www.southwest.com/air/upgrade/",
-				"description": {
-					"text": "Passengers can use the product to upgrade their airline tickets and obtain better benefits."
-				},
-				"badges": [{ "text": "React" }, { "text": "A11Y Level AA" }, { "text": "Scrum Methology" }]
-			},
-			{
-				"name": "Banco Caja Social",
-				"description": {
-					"text": "Virtual banking portal that allows users to access their registered accounts."
-				},
-				"badges": [{ "text": "Angular JS" }]
+				"badges": [{ "text": "HTML" }, { "text": "CSS" }, { "text": "Git" }, { "text": "Javascript" }]
 			}
+			
 		]
 	},
 	"keyboardManager": {
@@ -231,7 +158,7 @@
 				"section": "Social",
 				"handler": "redirect",
 				"target": "_blank",
-				"link": "https://www.linkedin.com/in/marvin-cely/"
+				"link": "www.linkedin.com/in/camilo-andres-rojas-prieto-software-developer"
 			},
 			{
 				"id": "github",
@@ -241,7 +168,7 @@
 				"section": "Social",
 				"handler": "redirect",
 				"target": "_blank",
-				"link": "https://github.com/DanteCely"
+				"link": "https://github.com/crojasp1"
 			},
 			{
 				"id": "language",

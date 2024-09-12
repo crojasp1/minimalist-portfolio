@@ -1,8 +1,8 @@
 {
 	"hero": {
-		"title": "Marvin Daniel Cely Báez",
-		"role": "Sr Software Engineer  | Frontend Instructor | Systems Engineer",
-		"text": "Con +5 años de experiencia colaborando y creando productos de calidad.",
+		"title": "Camilo Andres Rojas Prieto",
+		"role": "Jr Software Developer  | Frontend Developer | Mechanical Engineer",
+		"text": "Con 3 años de experiencia estudiando y creando mis propios proyectos de calidad.",
 		"location": {
 			"text": "Bogotá, Colombia",
 			"link": "https://www.google.com/maps/place/Bogot%C3%A1"
@@ -10,34 +10,33 @@
 		"contacts": [
 			{
 				"icon": "linkedin",
-				"link": "https://www.linkedin.com/in/marvin-cely/",
+				"link": "https://www.linkedin.com/in/camilo-andres-rojas-prieto-software-developer/",
 				"title": "Ir a mi Linked In",
-				"print": "https://www.linkedin.com/in/marvin-cely/"
+				"print": "https://www.linkedin.com/in/camilo-andres-rojas-prieto-software-developer/"
 			},
 			{
 				"icon": "mail",
-				"link": "mailto:mardancely@gmail.com",
-				"title": "Ponte en contacto conmigo en mardancely@gmail.com",
-				"print": "mardancely@gmail.com"
+				"link": "mailto:camilorojasprieto@gmail.com",
+				"title": "Ponte en contacto conmigo en camilorojasprieto@gmail.com",
+				"print": "camilorojasprieto@gmail.com"
 			},
 			{
 				"icon": "whatsapp",
-				"link": "https://wa.link/phtmr6",
-				"title": "Ponte en contacto conmigo en WhatsApp +57 (305)701-3051",
-				"print": "+57 (305)701-3051"
+				"link": "https://wa.link/mhlsa8",
+				"title": "Ponte en contacto conmigo en WhatsApp +57 (321)221-4428",
+				"print": "+57 (321)221-4428"
 			},
-			{ "icon": "github", "link": "https://github.com/DanteCely", "title": "Visita mi Github" }
+			{ "icon": "github", "link": "https://github.com/crojasp1", "title": "Visita mi Github" }
 		],
 		"image": {
 			"src": "/me.webp",
-			"alt": "Marvin's Profile Image"
+			"alt": "Camilo's Profile Image"
 		}
 	},
 	"about": {
 		"title": "Sobre mí",
 		"texts": [
-			"Transformando ideas en experiencias digitales impactantes usando JavaScript, Node.js, React, Angular, CSS (SASS) y más. Soy hábil en la creación de aplicaciones web atractivas y accesibles, colaboro eficazmente en equipos ágiles (Scrum, Kanban, XP) para abordar proyectos de principio a fin, desde la conceptualización hasta el despliegue y el mantenimiento, garantizando soluciones robustas y escalables.",
-			"A lo largo de mi carrera, he conseguido logros notables, como el lanzamiento de la función Clips en Mercado Libre en Brasil, Argentina, Colombia, México y Chile. Participé en la implementación de la función Upgrade Fare Type para Southwest Airlines, mejorando su proceso de actualización de billetes. Además, aporté soluciones innovadoras para la elaboración de informes y gráficos fiscales en Ernst & Young",
+			"Transformando ideas en experiencias digitales impactantes usando JavaScript, Node.js, React, CSS y más. Soy hábil en la creación de aplicaciones web atractivas y accesibles, colaboro eficazmente en equipos ágiles(Scrum) para abordar proyectos de principio a fin. Cursé con el Ministerio TIC mediante la Facultad de Ingeniería de la Universidad de Antioquia los cuatro diplomados en Fundamentos de programación con Java y Python, Desarrollo de Software, aplicaciones Móviles y Web. Excelentes habilidades de inglés.",
 			"Mi compromiso con la excelencia técnica y la colaboración me impulsa a buscar continuamente nuevos retos. Me apasiona hacer crecer mis habilidades y tener un impacto significativo a través de mi trabajo."
 		]
 	},
@@ -46,95 +45,20 @@
 		"experiences": [
 			{
 				"organization": {
-					"name": "Mercado Libre",
-					"badges": [{ "text": "Híbrido", "tooltip": "Tiempo completo" }],
-					"duration": { "from": "Noviembre 2021", "to": "May 2024" }
+					"name": "Longport - American Airlines",
+					"badges": [{ "text": "Presencial"}],
+					"duration": { "from": "March 2019", "to": "August 2021" }
 				},
-				"role": "Sr Software Engineer",
+				"role": "Crew and Qualified Agent",
 				"description": {
 					"list": [
-						"Contribuí al exitoso lanzamiento de Mercado Libre Clips, incrementando las ventas en Argentina, Brasil, México, Chile y Colombia",
-						"Apoyé el crecimiento de Clips y con mi equipo desarrollando e implementando nuevas funciones como Cupones en Clips, Seguir al vendedor y Clips en la Galería, lo que resultó en una mayor adopción de la plataforma.",
-						"Realicé el análisis e implementación de la refactorización de Clips, utilizando patrones de diseño como Factory, Strategy y Singleton con hooks de React",
-						"Colaboré cercanamente con los equipos de UX, producto y desarrollo para crear funciones sólidas centradas en las métricas clave de cada trimestre",
-						"Apoyé en el proyecto Mercado Libre Live Commerce optimizando el chat y mejorando el acceso responsivo al hub de streaming"
-					]
-				}
-			},
-			{
-				"organization": {
-					"name": "Nodo EAFIT",
-					"badges": [{ "text": "Remoto", "tooltip": "Partial-time" }],
-					"duration": { "from": "Octubre 2022", "to": "present" }
-				},
-				"role": "Frontend Instructor",
-				"description": {
-					"list": [
-						"Impartí tres módulos de cursos de front-end, centrándose en la transferencia de conocimientos de más de 30 aspirantes a desarrolladores de software por curso",
-						"Diseñé retos de programación orientados a HTML (Semantic & A11Y), CSS (SASS), JavaScript, Node.js, y React, guiando a los alumnos a completar con éxito el proyecto final del módulo."
-					]
-				}
-			},
-			{
-				"organization": {
-					"name": "Globant",
-					"badges": [{ "text": "Híbrido", "tooltip": "Tiempo completo" }],
-					"duration": { "from": "June 2019", "to": "Octubre 2021" }
-				},
-				"role": "Web UI Developer",
-				"initiatives": [
-					{
-						"name": "Erns & Young",
-						"duration": { "from": "April 2020", "to": "Octubre 2021" },
-						"description": {
-							"list": [
-								"Analicé, desarrollé & optimicé tabla de flujo de información fiscal, manejador de errores, gráficos de datos con Angular & Typescript",
-								"Realicé, en 3 meses, la refactorización del proyecto Covid Incentives Taxs, centrándome en la componetización de componentes simples a complejos con sprints de una semana utilizando React & Ant Design.",
-								"Realicé la migración de todo el Proyecto de Análisis de Informes de Aumento de Personal de Angular 4 a Angular 10 reestructurando todo el código desde cero, y manteniendo el mismo flujo de la aplicación",
-								"Investigué y creé dashboards Spike (POC) usando Kendo Chart JS en el lado del cliente y obteniendo las consultas usando LINQ y C# en el lado del servidor."
-							]
-						}
-					},
-					{
-						"name": "Southwest Airlines",
-						"duration": { "from": "June 2019", "to": "March 2020" },
-						"description": {
-							"list": [
-								"Realizé la entrega completa del proyecto Upgrade Ticket's Airlines utilizando React (Clases), SASS con BEM y metodología Scrum",
-								"Analicé y mejoré la accesibilidad (A11Y) de la aplicación, apoyandome con la evaluación del comité de accesibilidad",
-								"Colaboré activamente en la revisión del código, sesiones de tres amigos y planificación orientada al póquer con el cliente para entregar una aplicación de alta calidad."
-							]
-						}
-					}
-				]
-			},
-			{
-				"organization": {
-					"name": "IBM",
-					"badges": [{ "text": "Presencial", "tooltip": "Tiempo completo" }],
-					"duration": { "from": "Noviembre 2018", "to": "Febrero 2019" }
-				},
-				"role": "Started Application Developer",
-				"description": {
-					"text": [
-						"Desarrollé requerimientos funcionales del Banco Caja Social como página de login y perfil utilizando Angular JS y framework Backbase"
-					]
-				},
-				"printPageBreak": true
-			},
-			{
-				"organization": {
-					"name": "Netlogistik",
-					"badges": [{ "text": "Presencial", "tooltip": "Tiempo completo" }],
-					"duration": { "from": "March 2017", "to": "Octubre 2017" }
-				},
-				"role": "Software Engineer",
-				"description": {
-					"text": [
-						"Desarrollé un portafolio de indicadores clave de rendimiento (KPI) personalizados que genera informes a tiempo real, según el cliente en un sistema de gestión de almacenes (WMS) utilizando Power BI"
+						"Comuniqué y traduje exitosamente los requerimientos de la tripulación interactuando del idioma inglés al español.",
+						"Coordine el personal de vuelo (Capitanes y tripulantes) con personal de rutas para transportar estos a su destino sin problemas.",
+						"Cumpli todos los roles asignados en la compañia luego de capacitarme; entrando a trabajar en varias posiciones bajo presión."
 					]
 				}
 			}
+			
 		]
 	},
 	"education": {
@@ -142,15 +66,35 @@
 		"experiences": [
 			{
 				"organization": {
-					"name": "Pontificia Universidad Javeriana"
+					"name": "Servicio Nacional de Aprendizaje (SENA)"
 				},
 				"initiatives": [
-					{ "name": "MSc, Maestría en Inteligencia Artificial", "duration": { "from": "Enero 2021", "to": "present" } },
-					{
-						"name": "MSc, Maestría en Ingeniería de Sistemas y Computación",
-						"duration": { "from": "Enero 2012", "to": "present" }
-					},
-					{ "name": "SE, Ingeniería de Sistemas", "duration": { "from": "Enero 2019", "to": "Septiembre 2018" } }
+					{ "name": "Analisis y desarrollo de Software", "duration": { "from": "Noviembre 2022", "to": "present" } }
+
+				]},
+				{
+				"organization": {
+					"name": "Ministerio TIC (Universidad Distrital Francisco José de Caldas)"
+				},
+				"initiatives": [
+					{ "name": "Desarrollo de Software", "duration": { "from": "Junio 2024", "to": "present" } }
+
+				]},
+				{
+				"organization": {
+					"name": "Ministerio TIC (Universidad de Antioquia)"
+				},
+				"initiatives": [
+					{ "name": "Desarrollo de Software", "duration": { "from": "Abril 2022", "to": "Diciembre 2022" } }
+
+				]},
+				{
+				"organization": {
+					"name": "Universidad Central"
+				},
+				"initiatives": [
+					{ "name": "Ingeniería Mecánica", "duration": { "from": "Agosto 2012", "to": "Octubre 2018" } }
+
 				]
 			}
 		]
@@ -161,12 +105,9 @@
 			{ "text": "Javascript", "tooltip": "+5 años", "icon": "javascript" },
 			{ "text": "React", "tooltip": "+4 años", "icon": "react" },
 			{ "text": "NodeJS", "tooltip": "+2 años", "icon": "nodejs" },
-			{ "text": "Typescript", "tooltip": "+2 años", "icon": "typescript" },
-			{ "text": "SASS", "tooltip": "+5 años", "icon": "sass" },
 			{ "text": "CSS", "tooltip": "+5 años", "icon": "css" },
 			{ "text": "HTML", "tooltip": "+5 años", "icon": "html" },
 			{ "text": "Git", "tooltip": "+5 años", "icon": "git" },
-			{ "text": "Angular", "tooltip": "+1 años", "icon": "angular" },
 			{ "text": "Inglés", "tooltip": "intermedio alto", "icon": "language" }
 		]
 	},
@@ -174,42 +115,26 @@
 		"title": "Proyectos",
 		"list": [
 			{
-				"name": "Mercado Libre Clips",
-				"link": "https://vendedores.mercadolibre.com.mx/nota/sube-videos-de-tus-productos-para-llegar-a-mas-personas",
+				"name": "Sweet Moment e-commerce",
+				"link": "https://github.com/crojasp1/proyecto-sweet-moment",
 				"description": {
-					"text": "Experiencia similar a las redes sociales donde los vendedores de Mercado Libre pueden crear videos cortos moderados para mejorar la experiencia de los compradores."
+					"text": "Desarrollo de e-commerce de una tienda para adultos. Se utiliza el Stack MERN (MONGO, Express). Se implementa Lazy Loading para la carga tardia de todas las imagenes del footer."
 				},
 				"badges": [
 					{ "text": "React" },
 					{ "text": "NodeJS" },
-					{ "text": "Fury" },
-					{ "text": "Datadog" },
-					{ "text": "New Relic" }
+					{ "text": "CSS" }
 				]
 			},
 			{
-				"name": "Mercado Livre Live",
-				"link": "https://www.linkedin.com/pulse/mercado-livre-live-commerce-bruno-meira/",
+				"name": "Cherry Panthers",
+				"link": "https://github.com/crojasp1/Cherry-panthers-studio",
 				"description": {
-					"text": "Los vendedores de Mercado Libre ofrecían una experiencia más cercana de sus productos a sus compradores a través de la transmisiones en vivo por vídeo y el chat."
+					"text": "Landing Page responsive la cual me sirvio para implementar Flex box los cuales se acomodan en tres pantallas (320px, 740px, 1080px) con Media Queries."
 				},
-				"badges": [{ "text": "React" }, { "text": "NodeJS" }, { "text": "AWS" }, { "text": "OBS Studio" }]
-			},
-			{
-				"name": "Upgrade Fare Type",
-				"link": "https://www.southwest.com/air/upgrade/",
-				"description": {
-					"text": "Los pasajeros pueden utilizar el producto subir de beneficios en sus boletos de avión."
-				},
-				"badges": [{ "text": "React" }, { "text": "A11Y Level AA" }, { "text": "Scrum Methology" }]
-			},
-			{
-				"name": "Banco Caja Social",
-				"description": {
-					"text": "Portal de banca virtual que permite a los usuarios acceder a sus cuentas registradas."
-				},
-				"badges": [{ "text": "Angular JS" }]
+				"badges": [{ "text": "HTML" }, { "text": "CSS" }, { "text": "Git" }, { "text": "Javascript" }]
 			}
+			
 		]
 	},
 	"keyboardManager": {
@@ -231,7 +156,7 @@
 				"section": "Social",
 				"handler": "redirect",
 				"target": "_blank",
-				"link": "https://www.linkedin.com/in/marvin-cely/"
+				"link": "www.linkedin.com/in/camilo-andres-rojas-prieto-software-developer"
 			},
 			{
 				"id": "github",
@@ -241,7 +166,7 @@
 				"section": "Social",
 				"handler": "redirect",
 				"target": "_blank",
-				"link": "https://github.com/DanteCely"
+				"link": "https://github.com/crojasp1"
 			},
 			{
 				"id": "language",
